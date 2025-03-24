@@ -1,0 +1,319 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "object_id": "67_kitchen_counter",
+                "object_name": "cabinet",
+                "category_tag": "furniture",
+                "room": "kitchen",
+                "yaw": -179.21403081863926,
+                "position": [
+                    3.5722873790289924,
+                    -4.098757251953277,
+                    0.17975312711997593
+                ],
+                "extents": [
+                    0.9037550087829502,
+                    0.07729495694411856,
+                    0.8204353895444592
+                ]
+            },
+            {
+                "object_id": "53_stove_top",
+                "object_name": "cabinet",
+                "category_tag": "furniture",
+                "room": "kitchen",
+                "yaw": -173.42577719074976,
+                "position": [
+                    5.875329085344028,
+                    -4.433543857586974,
+                    1.6540713987093536
+                ],
+                "extents": [
+                    0.7862978230206313,
+                    0.22082509948866655,
+                    0.7913261589069176
+                ]
+            },
+            {
+                "object_id": "83_sink",
+                "object_name": "sink",
+                "category_tag": "furniture",
+                "room": "kitchen",
+                "yaw": -163.73503314547847,
+                "position": [
+                    4.3740836322913275,
+                    -2.0225967894508345,
+                    0.5566877145759385
+                ],
+                "extents": [
+                    0.9468115328087814,
+                    0.7098079180864323,
+                    0.3245569014249769
+                ]
+            },
+            {
+                "object_id": "90_kitchen_island",
+                "object_name": "chair",
+                "category_tag": "furniture",
+                "room": "kitchen",
+                "yaw": 174.5217127813926,
+                "position": [
+                    3.5875128777564234,
+                    -0.93514425063012,
+                    0.4403815045319487
+                ],
+                "extents": [
+                    0.4376365723297534,
+                    0.20657963394077716,
+                    0.28896970636790875
+                ]
+            },
+            {
+                "object_id": "125_dining_table",
+                "object_name": "dining table",
+                "category_tag": "furniture",
+                "room": "kitchen",
+                "yaw": 150.99327187843812,
+                "position": [
+                    3.03654403495802,
+                    5.040964875833581,
+                    0.16390791255230824
+                ],
+                "extents": [
+                    1.0978177076047813,
+                    0.9158786142268877,
+                    0.590004996501204
+                ]
+            },
+            {
+                "object_id": "117_sofa",
+                "object_name": "pillow",
+                "category_tag": "furniture",
+                "room": "living_room",
+                "yaw": 178.00020118465144,
+                "position": [
+                    2.252082010629416,
+                    1.833289453648292,
+                    0.2951364611407678
+                ],
+                "extents": [
+                    0.5297569705862148,
+                    0.3497707909472548,
+                    0.4462623116728788
+                ]
+            },
+            {
+                "object_id": "105_coffee_table",
+                "object_name": "coffee table",
+                "category_tag": "furniture",
+                "room": "living_room",
+                "yaw": 86.17161945915491,
+                "position": [
+                    1.0861932105720498,
+                    3.266675221941969,
+                    0.009059922920248452
+                ],
+                "extents": [
+                    0.840712350027296,
+                    0.8114835131775984,
+                    0.5481352065794733
+                ]
+            },
+            {
+                "object_id": "103_chair_with_bulldozer_car",
+                "object_name": "chair",
+                "category_tag": "furniture",
+                "room": "living_room",
+                "yaw": 168.19343095412427,
+                "position": [
+                    2.897088324101331,
+                    4.710015679267752,
+                    0.011781008680583203
+                ],
+                "extents": [
+                    0.676986871079425,
+                    0.29924034708425346,
+                    0.29439788483951623
+                ]
+            },
+            {
+                "object_id": "1_chair_with_frog",
+                "object_name": "chair",
+                "category_tag": "furniture",
+                "room": "living_room",
+                "yaw": 169.47022191829979,
+                "position": [
+                    5.909769859237668,
+                    4.790242690277476,
+                    0.16380930493397566
+                ],
+                "extents": [
+                    1.0087733320857293,
+                    1.0200382623699369,
+                    0.6973331685488957
+                ]
+            },
+            {
+                "object_id": "2_living_room_console",
+                "object_name": "cabinet",
+                "category_tag": "furniture",
+                "room": "living_room",
+                "yaw": -174.39033925328818,
+                "position": [
+                    5.9378494127335335,
+                    4.295837857036078,
+                    0.32789541592318644
+                ],
+                "extents": [
+                    0.4900035982002817,
+                    0.1608247060464898,
+                    0.3978660289874859
+                ]
+            },
+            {
+                "object_id": "35_office_cabinet",
+                "object_name": "cabinet",
+                "category_tag": "furniture",
+                "room": "office",
+                "yaw": -153.84778683923687,
+                "position": [
+                    0.7574875286813986,
+                    5.970600836423446,
+                    0.20890584885465827
+                ],
+                "extents": [
+                    0.7168888748045664,
+                    0.7230371743536299,
+                    0.6155807888569612
+                ]
+            },
+            {
+                "object_id": "41_brown_leather_chair_with_can_of_soda",
+                "object_name": "chair",
+                "category_tag": "furniture",
+                "room": "office",
+                "yaw": 65.50073491531073,
+                "position": [
+                    2.3065546465471636,
+                    8.948920948946528,
+                    0.08493661303456797
+                ],
+                "extents": [
+                    0.9587875456849461,
+                    0.8417896575750512,
+                    0.5279481718326626
+                ]
+            },
+            {
+                "object_id": "39_brown_leather_chair_with_cup",
+                "object_name": "chair",
+                "category_tag": "furniture",
+                "room": "office",
+                "yaw": 100.62419642081211,
+                "position": [
+                    1.4160368824807656,
+                    8.978481373732441,
+                    0.09762200549707029
+                ],
+                "extents": [
+                    0.8452764915136255,
+                    0.7659042619252545,
+                    0.4768811649395429
+                ]
+            },
+            {
+                "object_id": "11_dresser",
+                "object_name": "cabinet",
+                "category_tag": "furniture",
+                "room": "bedroom",
+                "yaw": 170.39238464123207,
+                "position": [
+                    8.362919622311269,
+                    6.168352429903558,
+                    0.21978151223727888
+                ],
+                "extents": [
+                    1.6017145269259032,
+                    0.6515980592023503,
+                    0.8376640738621652
+                ]
+            },
+            {
+                "object_id": "126_nightstand_on_left",
+                "object_name": "night stand",
+                "category_tag": "furniture",
+                "room": "bedroom",
+                "yaw": 71.99679663453118,
+                "position": [
+                    2.3503932101985683,
+                    5.255568148023215,
+                    0.21270597797395627
+                ],
+                "extents": [
+                    0.49150984094095596,
+                    0.37992642355361184,
+                    0.48981103696481965
+                ]
+            },
+            {
+                "object_id": "20_bed",
+                "object_name": "pillow",
+                "category_tag": "furniture",
+                "room": "bedroom",
+                "yaw": 169.29293616332134,
+                "position": [
+                    9.559348360415646,
+                    2.396102990665951,
+                    0.3627845252554729
+                ],
+                "extents": [
+                    0.8718560641034394,
+                    0.6524003466455925,
+                    0.17030471603210873
+                ]
+            },
+            {
+                "object_id": "24_nightstand_on_right",
+                "object_name": "night stand",
+                "category_tag": "furniture",
+                "room": "bedroom",
+                "yaw": 178.7428364674988,
+                "position": [
+                    8.159854316093345,
+                    2.4581445918049103,
+                    0.14460153544490637
+                ],
+                "extents": [
+                    0.5878658085225422,
+                    0.5352957061533312,
+                    0.698135243631346
+                ]
+            }
+        ],
+        "edges": [
+            {
+                "source": "67_kitchen_counter",
+                "target": "53_stove_top",
+                "relation": "under"
+            },
+            {
+                "source": "53_stove_top",
+                "target": "67_kitchen_counter",
+                "relation": "on"
+            },
+            {
+                "source": "83_sink",
+                "target": "90_kitchen_island",
+                "relation": "on"
+            },
+            {
+                "source": "90_kitchen_island",
+                "target": "83_sink",
+                "relation": "under"
+            }
+        ]
+    },
+    "timestamp": "2024-10-10T00:55:55Z",
+    "status": "success"
+}

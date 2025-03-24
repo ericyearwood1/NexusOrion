@@ -1,0 +1,12 @@
+{
+  "name": "com.arglasses.icons",
+  "displayName": "[ARGlasses] Icons",
+  "version": "1.6.0",
+  "unity": "2020.3",
+  "description": "Icons for ARDS",
+  "dependencies": {
+    "com.unity.2d.sprite": "1.0.0"
+  },
+  "type": "library",
+  "hideInEditor": false
+}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08f8eb638e045f45909d47dc988023b, type: 3}
+  m_Name: PlaceObjectOnRoomMesh
+  m_EditorClassIdentifier: 
+  id: d08c557e-a09a-4c39-9efe-57f1c8f76fd2
+  version: 1
+  blockName: Place Object On Room Mesh Sample
+  description: Place a GameObject on Scene Mesh using controller.
+  tags:
+    array:
+    - name: Sample
+    - name: Scene
+    - name: Experimental
+    - name: Internal
+    - name: Quest 3 Only
+  thumbnail: {fileID: 2800000, guid: 406c86d69894bd74d9ec0ab20f78582d, type: 3}
+  order: 10
+  prefab: {fileID: 3042191640883749375, guid: 02f0eadace6a2bd42bab8740923f4a1a, type: 3}
+  externalBlockDependencies: []
+  dependencies:
+  - 6b8a377d-05de-449b-a9c4-8ed22606f71c
+  - 80aa2eb2-af2f-40a9-ad9e-18044ce65bee
+  packageDependencies: []
+  isSingleton: 1
+  usageInstructions: "Set your desired Prefab in PlaceObject component in \"[BuildingBlock]
+    Place Object On Room Mesh\" GameObject. \n\nTo customize the Prefab placement
+    button, see ControllerButtonsMapper component in \"[BuildingBlock] Controller
+    Buttons Mapper\" GameObject.\n\nNote: You can remove the default Plane and Volume
+    prefab in OVRSceneManager component in \"[BuildingBlock] Room Model\" GameObject
+    to hide the other scene anchors from your Room Setup and only show the Room Mesh."

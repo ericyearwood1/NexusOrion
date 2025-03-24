@@ -1,0 +1,2 @@
+-define:ORION_IX_PROJECT
+-r:System.IO.Compression.FileSystem.dll

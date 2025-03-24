@@ -1,0 +1,24 @@
+{
+    "status": "success",
+    "timestamp": "2024-07-11T17:00:10Z",
+    "object": [
+        {
+            "object_id": "113_white_sink",
+            "object_name": "white_sink",
+            "category_tag": "furniture",
+            "room": "kitchen",
+            "bbox_extent": [
+                0.8,
+                0.6,
+                0.4
+            ],
+            "bbox_center": [
+                3.9,
+                -2.0,
+                0.5
+            ],
+            "receptacles": [
+            ]
+        }
+    ]
+}

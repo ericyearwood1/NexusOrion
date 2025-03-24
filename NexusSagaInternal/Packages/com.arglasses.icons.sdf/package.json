@@ -1,0 +1,12 @@
+{
+  "name": "com.arglasses.icons.sdf",
+  "displayName": "[ARGlasses] Icons SDF",
+  "version": "0.0.1",
+  "unity": "2020.3",
+  "description": "Vectorized Icons for ARDS",
+  "dependencies": {
+    "com.unity.2d.sprite": "1.0.0"
+  },
+  "type": "library",
+  "hideInEditor": false
+}

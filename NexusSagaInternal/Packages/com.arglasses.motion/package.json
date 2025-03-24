@@ -1,0 +1,16 @@
+{
+  "name": "com.arglasses.motion",
+  "displayName": "[ARGlasses] Motion",
+  "version": "1.0.1",
+  "unity": "2020.3",
+  "keywords": [
+    "HoloLens",
+    "Text",
+    "Input",
+    "PKUI",
+    "OSIG",
+    "Orion",
+    "ARGlasses"
+  ],
+  "description": "Motion utilities for AR interaction prototyping."
+}

@@ -1,0 +1,10 @@
+{
+  "skills": [
+    "robot_pose",
+    "ee_pose"
+  ],
+  "planner": [],
+  "multiplayer": [
+    "synced_entity"
+  ]
+}

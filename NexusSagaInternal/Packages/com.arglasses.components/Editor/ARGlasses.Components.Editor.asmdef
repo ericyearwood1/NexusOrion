@@ -1,0 +1,27 @@
+{
+    "name": "ARGlasses.Components.Editor",
+    "rootNamespace": "ARGlasses.Components",
+    "references": [
+        "ITK.Inspector",
+        "ARGlasses.Components",
+
+        "Unity.TextMeshPro",
+        "osig.tools.prefablibrary",
+        "protokit.sdk.ui.graphics",
+        "osig.tools.units",
+        "osig.tools.statemachine",
+        "ARGlasses.Interaction",
+        "ARGlasses.Text"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

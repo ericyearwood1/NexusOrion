@@ -1,0 +1,505 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f697f9af0d0e433ea03e22ce1b80787e, type: 3}
+  m_Name: OVROriginalFaceExpressionWeightGenerator
+  m_EditorClassIdentifier: 
+  _customExpressionFormulas:
+  - Name: BrowLowererL
+    Components:
+    - Expression: 0
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: BrowLowererR
+    Components:
+    - Expression: 1
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: CheekPuffL
+    Components:
+    - Expression: 2
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: CheekPuffR
+    Components:
+    - Expression: 3
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: CheekRaiserL
+    Components:
+    - Expression: 4
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: CheekRaiserR
+    Components:
+    - Expression: 5
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: CheekSuckL
+    Components:
+    - Expression: 6
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: CheekSuckR
+    Components:
+    - Expression: 7
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: ChinRaiserB
+    Components:
+    - Expression: 8
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: ChinRaiserT
+    Components:
+    - Expression: 9
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: DimplerL
+    Components:
+    - Expression: 10
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: DimplerR
+    Components:
+    - Expression: 11
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyesClosedL
+    Components:
+    - Expression: 12
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyesClosedR
+    Components:
+    - Expression: 13
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyesLookDownL
+    Components:
+    - Expression: 14
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyesLookDownR
+    Components:
+    - Expression: 15
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyesLookLeftL
+    Components:
+    - Expression: 16
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyesLookLeftR
+    Components:
+    - Expression: 17
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyesLookRightL
+    Components:
+    - Expression: 18
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyesLookRightR
+    Components:
+    - Expression: 19
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyesLookUpL
+    Components:
+    - Expression: 20
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyesLookUpR
+    Components:
+    - Expression: 21
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: InnerBrowRaiserL
+    Components:
+    - Expression: 22
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: InnerBrowRaiserR
+    Components:
+    - Expression: 23
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: JawDrop
+    Components:
+    - Expression: 24
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: JawSidewaysLeft
+    Components:
+    - Expression: 25
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: JawSidewaysRight
+    Components:
+    - Expression: 26
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: JawThrust
+    Components:
+    - Expression: 27
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LidTightenerL
+    Components:
+    - Expression: 28
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LidTightenerR
+    Components:
+    - Expression: 29
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipCornerDepressorL
+    Components:
+    - Expression: 30
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipCornerDepressorR
+    Components:
+    - Expression: 31
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipCornerPullerL
+    Components:
+    - Expression: 32
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipCornerPullerR
+    Components:
+    - Expression: 33
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipFunnelerLB
+    Components:
+    - Expression: 34
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipFunnelerLT
+    Components:
+    - Expression: 35
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipFunnelerRB
+    Components:
+    - Expression: 36
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipFunnelerRT
+    Components:
+    - Expression: 37
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipPressorL
+    Components:
+    - Expression: 38
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipPressorR
+    Components:
+    - Expression: 39
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipPuckerL
+    Components:
+    - Expression: 40
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipPuckerR
+    Components:
+    - Expression: 41
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipStretcherL
+    Components:
+    - Expression: 42
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipStretcherR
+    Components:
+    - Expression: 43
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipSuckLB
+    Components:
+    - Expression: 44
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipSuckLT
+    Components:
+    - Expression: 45
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipSuckRB
+    Components:
+    - Expression: 46
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipSuckRT
+    Components:
+    - Expression: 47
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipTightenerL
+    Components:
+    - Expression: 48
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipTightenerR
+    Components:
+    - Expression: 49
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LipsToward
+    Components:
+    - Expression: 50
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LowerLipDepressorL
+    Components:
+    - Expression: 51
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: LowerLipDepressorR
+    Components:
+    - Expression: 52
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthLeft
+    Components:
+    - Expression: 53
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthRight
+    Components:
+    - Expression: 54
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: NoseWrinklerL
+    Components:
+    - Expression: 55
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: NoseWrinklerR
+    Components:
+    - Expression: 56
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: OuterBrowRaiserL
+    Components:
+    - Expression: 57
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: OuterBrowRaiserR
+    Components:
+    - Expression: 58
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: UpperLidRaiserL
+    Components:
+    - Expression: 59
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: UpperLidRaiserR
+    Components:
+    - Expression: 60
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: UpperLipRaiserL
+    Components:
+    - Expression: 61
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: UpperLipRaiserR
+    Components:
+    - Expression: 62
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: TongueTipInterdental
+    Components:
+    - Expression: 63
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: TongueTipAlveolar
+    Components:
+    - Expression: 64
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: TongueFrontDorsalPalate
+    Components:
+    - Expression: 65
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: TongueMidDorsalPalate
+    Components:
+    - Expression: 66
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: TongueBackDorsalVelar
+    Components:
+    - Expression: 67
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: TongueOut
+    Components:
+    - Expression: 68
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: TongueRetreat
+    Components:
+    - Expression: 69
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1

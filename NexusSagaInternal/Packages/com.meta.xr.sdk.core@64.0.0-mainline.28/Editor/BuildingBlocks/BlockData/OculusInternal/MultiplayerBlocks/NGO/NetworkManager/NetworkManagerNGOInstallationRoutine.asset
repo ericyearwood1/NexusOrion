@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fabc03831e992446bda8a4f4b47eb55, type: 3}
+  m_Name: NetworkManagerNGOInstallationRoutine
+  m_EditorClassIdentifier: 
+  targetBlockDataId: 1d8db162-54f6-43df-b4ef-b499df1f6769
+  prefab: {fileID: 3576742687292369074, guid: 58441157858c39541b101ea446f3da34, type: 3}
+  groupType: NGO
+  packageDependencies:
+  - com.unity.netcode.gameobjects@1.8.0

@@ -1,0 +1,18 @@
+{
+    "name": "Speech",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e594f9487636b5246ab3a5d364477f48",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:d870a2123e2504a579aebf2865b7a943"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

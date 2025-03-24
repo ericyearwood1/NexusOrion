@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b8256e837a14fb4bce1d438521faca, type: 3}
+  m_Name: Stub World Graph Config
+  m_EditorClassIdentifier: 
+  _graph:
+    Status: success
+    Timestamp: 
+    Nodes:
+    - Id: floor[1]
+      ObjectName: floor
+      Category: furniture
+      Room: kitchen
+      Extents: {x: 5, y: 1.110223e-16, z: 5}
+      Position: {x: 1.7116624, y: 0, z: 4.322616}
+      Yaw: 0
+    - Id: kitchen_cabinet[1]
+      ObjectName: cabinet
+      Category: furniture
+      Room: kitchen
+      Extents: {x: 5, y: 0.5, z: 0.5}
+      Position: {x: 1.7208529, y: 0.58963394, z: 8.577244}
+      Yaw: 0
+    - Id: drawer[1]
+      ObjectName: drawer
+      Category: furniture
+      Room: kitchen
+      Extents: {x: 0.7192553, y: 0.44571197, z: 0.60691595}
+      Position: {x: 5.762075, y: 0.44571197, z: 8.664869}
+      Yaw: 0
+    - Id: trash_can[1]
+      ObjectName: trash_can
+      Category: furniture
+      Room: kitchen
+      Extents: {x: 0.31400782, y: 0.20927328, z: 0.3413272}
+      Position: {x: -0.5236677, y: 0.20927304, z: 3.8671827}
+      Yaw: 0
+    - Id: kitchen_counter[1]
+      ObjectName: kitchen_counter
+      Category: furniture
+      Room: kitchen
+      Extents: {x: 2, y: 0.5, z: 1}
+      Position: {x: 1.0642365, y: 0.6041436, z: 5.394264}
+      Yaw: 0
+    - Id: coffee_table[1]
+      ObjectName: coffee_table
+      Category: furniture
+      Room: kitchen
+      Extents: {x: 0.7002393, y: 0.27274257, z: 0.8386476}
+      Position: {x: 4.671099, y: 0.27274257, z: 1.0242398}
+      Yaw: 0
+    - Id: coffee_table[2]
+      ObjectName: coffee_table
+      Category: furniture
+      Room: kitchen
+      Extents: {x: 0.7002393, y: 0.27274257, z: 0.8386476}
+      Position: {x: -1.1480982, y: 0.27274257, z: 1.0242398}
+      Yaw: 0
+    - Id: can[1]
+      ObjectName: can
+      Category: can[1]
+      Room: kitchen
+      Extents: {x: 0.10545874, y: 0.10557671, z: 0.12766719}
+      Position: {x: 4.52, y: 0.63557667, z: 1.34}
+      Yaw: 0
+    - Id: donut[1]
+      ObjectName: donut
+      Category: donut[1]
+      Room: kitchen
+      Extents: {x: 0.10545874, y: 0.10557671, z: 0.12766719}
+      Position: {x: 4.247121, y: 0.6355767, z: 0.8495185}
+      Yaw: 0
+    - Id: robot[1]
+      ObjectName: robot
+      Category: robot
+      Room: kitchen
+      Extents: {x: 0.1054587, y: 0.10557671, z: 0.12766719}
+      Position: {x: 0, y: 0, z: 0}
+      Yaw: 0
+    - Id: drawer_handle[1]
+      ObjectName: drawer_handle
+      Category: furniture
+      Room: kitchen
+      Extents: {x: 0.05, y: 0.05, z: 0.05}
+      Position: {x: 5.8328195, y: 0.64, z: 8.057953}
+      Yaw: 0
+    - Id: ball[1]
+      ObjectName: ball
+      Category: object
+      Room: kitchen
+      Extents: {x: 0.05, y: 0.05, z: 0.05}
+      Position: {x: 4.547121, y: 0.6355767, z: 0.8495185}
+      Yaw: 0
+    - Id: toy[1]
+      ObjectName: toy
+      Category: object
+      Room: kitchen
+      Extents: {x: 0.05, y: 0.05, z: 0.05}
+      Position: {x: 4.547121, y: 0.6355767, z: 1.2495185}
+      Yaw: 0
+    Edges:
+    - SourceId: can[1]
+      TargetId: coffee_table[1]
+      Relationship: on
+    - SourceId: donut[1]
+      TargetId: coffee_table[1]
+      Relationship: on
+    - SourceId: ball[1]
+      TargetId: coffee_table[1]
+      Relationship: on
+    - SourceId: toy[1]
+      TargetId: coffee_table[1]
+      Relationship: on

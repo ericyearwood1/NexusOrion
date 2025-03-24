@@ -1,0 +1,98 @@
+[
+    {
+        "status": "success",
+        "timestamp": "2024-07-11T17:00:10Z",
+        "object": [
+            {
+                "object_id": "123_cup",
+                "object_name": "cup",
+                "category_tag": "object",
+                "room": "kitchen",
+                "bbox_extent": [
+                    0.2,
+                    0.1,
+                    0.1
+                ],
+                "bbox_center": [
+                        3.8,
+                        -4.1,
+                        0.35
+                ],
+                "receptacle": "285_kitchen_counter",
+                "operation": "add/item"
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "timestamp": "2024-07-11T17:00:10Z",
+        "object": [
+            {
+                "object_id": "123_cup",
+                "object_name": "cup",
+                "category_tag": "object",
+                "room": "kitchen",
+                "bbox_extent": [
+                    0.2,
+                    0.1,
+                    0.1
+                ],
+                "bbox_center": [
+                        3.8,
+                        -4.1,
+                        0.25
+                ],
+                "receptacle": "285_kitchen_counter",
+                "operation": "add/receptacle"
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "timestamp": "2024-07-11T17:00:10Z",
+        "object": [
+            {
+                "object_id": "123_cup",
+                "object_name": "cup",
+                "category_tag": "object",
+                "room": "kitchen",
+                "bbox_extent": [
+                    0.2,
+                    0.1,
+                    0.1
+                ],
+                "bbox_center": [
+                        3.8,
+                        -4.1,
+                        0.25
+                ],
+                "receptacle": "285_kitchen_counter",
+                "operation": "remove/receptacle"
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "timestamp": "2024-07-11T17:00:10Z",
+        "object": [
+            {
+                "object_id": "123_cup",
+                "object_name": "cup",
+                "category_tag": "object",
+                "room": "kitchen",
+                "bbox_extent": [
+                    0.2,
+                    0.1,
+                    0.1
+                ],
+                "bbox_center": [
+                        3.8,
+                        -4.1,
+                        0.25
+                ],
+                "receptacle": "285_kitchen_counter",
+                "operation": "remove/item"
+            }
+        ]
+    }
+]

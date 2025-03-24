@@ -1,0 +1,9 @@
+{
+	"timestamp": "1723652930.824241",
+	"label": "glass bottle",
+	"action_id": "Pick[glass bottle]",
+	"targets":[
+		{"x": "2.227315902709961", "y": "-3.043773651123047", "z": "0.5922292470932007", "normal_x": "0.0", "normal_y": "0.0", "normal_z": "1.0", "threshold":1}
+	]}
+
+

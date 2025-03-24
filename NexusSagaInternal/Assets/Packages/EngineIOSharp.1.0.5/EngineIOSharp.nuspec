@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>EngineIOSharp</id>
+    <version>1.0.5</version>
+    <title>Engine.IO</title>
+    <authors>uhm0311</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://github.com/uhm0311/EngineIOSharp</projectUrl>
+    <description>C# implementation of Engine.IO protocol revision 3 client and server.</description>
+    <releaseNotes>Fix Stackoverflow Exception.</releaseNotes>
+    <copyright>Copyright (c) 2020 uhm0311</copyright>
+    <tags>Engine.IO EngineIO</tags>
+    <repository type="git" url="https://github.com/uhm0311/EngineIOSharp.git" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="EmitterSharp" version="1.1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+        <dependency id="SimpleThreadMonitor" version="1.0.2.1" exclude="Build,Analyzers" />
+        <dependency id="WebSocketSharp.CustomHeaders.CustomHttpServer" version="1.0.2.3" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="EmitterSharp" version="1.1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+        <dependency id="SimpleThreadMonitor" version="1.0.2.1" exclude="Build,Analyzers" />
+        <dependency id="WebSocketSharp.CustomHeaders.CustomHttpServer" version="1.0.2.3" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="EmitterSharp" version="1.1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+        <dependency id="SimpleThreadMonitor" version="1.0.2.1" exclude="Build,Analyzers" />
+        <dependency id="WebSocketSharp.CustomHeaders.CustomHttpServer" version="1.0.2.3" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="EmitterSharp" version="1.1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+        <dependency id="SimpleThreadMonitor" version="1.0.2.1" exclude="Build,Analyzers" />
+        <dependency id="WebSocketSharp.CustomHeaders.CustomHttpServer" version="1.0.2.3" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="EmitterSharp" version="1.1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+        <dependency id="SimpleThreadMonitor" version="1.0.2.1" exclude="Build,Analyzers" />
+        <dependency id="WebSocketSharp.CustomHeaders.CustomHttpServer" version="1.0.2.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

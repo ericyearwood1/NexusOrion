@@ -1,0 +1,74 @@
+{
+    "name": "ARGlasses.Interaction",
+    "rootNamespace": "ARGlasses.Interaction",
+    "references": [
+        "ARGlasses.Motion",
+        "osig.tools.units",
+        "osig.tools.layout",
+        "osig.tools.statemachine",
+        "osig.tools.utility",
+        "CTRL.Core",
+        "CTRL.Core.Editor",
+        "CTRL.Utils",
+        "CTRL.Schemes",
+        "CTRL.Schemes.Editor",
+        "protokit.sdk.ui.graphics",
+        "ITK.Depend",
+        "ITK.Inspector",
+        "Oculus.VR",
+        "UnityEngine.SpatialTracking",
+        "Unity.XR.Management",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem",
+        "UnityEditor.UI",
+        "UnityEngine.UI",
+        "gdpx.displaysimulator",
+        "Oculus.Interaction",
+        "Oculus.Interaction.Input",
+        "TestCodeAssembly"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WSA",
+        "WebGL",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll",
+        "DOTween.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.protokit.sdk.ui",
+            "expression": "",
+            "define": "PKUI"
+        },
+        {
+            "name": "com.osig.tools.ui",
+            "expression": "",
+            "define": "PKUI"
+        },
+        {
+            "name": "com.osig.tools.units",
+            "expression": "",
+            "define": "PKUI"
+        },
+        {
+            "define": "USING_OVR",
+            "name": "com.meta.xr.sdk.interaction.ovr",
+            "expression": ""
+        },
+        {
+            "define": "ISDK_PRESENT",
+            "name": "com.meta.xr.sdk.interaction",
+            "expression": ""
+        }
+    ],
+    "noEngineReferences": false
+}

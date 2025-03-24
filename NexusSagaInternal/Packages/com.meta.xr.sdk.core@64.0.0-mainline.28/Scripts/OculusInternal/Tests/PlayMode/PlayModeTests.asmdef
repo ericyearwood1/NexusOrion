@@ -1,0 +1,38 @@
+{
+    "name": "PlayModeTests",
+    "rootNamespace": "",
+    "references": [
+        "Oculus.VR",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "TestsUtil",
+        "Meta.XR.BuildingBlocks.Editor",
+        "Meta.XR.BuildingBlocks",
+        "Meta.XR.Editor.Callbacks",
+        "Meta.XR.ImmersiveDebugger"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [
+        {
+            "define": "OVR_UNITY_PACKAGE_MANAGER",
+            "name": "com.meta.xr.sdk.core",
+            "expression": ""
+        },
+        {
+            "define": "OVR_INTERNAL_CODE",
+            "name": "Unity",
+            "expression": ""
+        }
+    ],
+    "noEngineReferences": false
+}

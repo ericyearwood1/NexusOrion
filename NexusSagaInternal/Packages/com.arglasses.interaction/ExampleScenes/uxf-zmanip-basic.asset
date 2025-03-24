@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fa49c46f7d41db8f2e78ae4a1af47e, type: 3}
+  m_Name: uxf-zmanip-basic
+  m_EditorClassIdentifier: 
+  _buildTarget: 13
+  _productName: uxf-zmanip
+  _scenes:
+  - {fileID: 102900000, guid: 44037cd2f8c1b9b45a1043e4ba4da16c, type: 3}
+  _packageName: com.arglasses.zmanip
+  _incrementVersion: 1
+  _locationPathName: Builds/zmanip.apk
+  _getAppName: 
+  _getAppId: 
+  _getAppToken: 
+  _lastBuildReport: {fileID: 1, guid: 00000000000000000000000000000000, type: 0}
+  _devModeOptions: 769

@@ -1,0 +1,12 @@
+{
+  "name": "com.arglasses.fonts",
+  "displayName": "[ARGlasses] Fonts",
+  "version": "1.5.1",
+  "unity": "2020.3",
+  "description": "Fonts for ARDS",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "type": "library",
+  "hideInEditor": false
+}

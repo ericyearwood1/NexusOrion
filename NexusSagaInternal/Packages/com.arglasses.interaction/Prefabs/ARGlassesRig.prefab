@@ -1,0 +1,4322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &283515177615055868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 283515177615055871}
+  - component: {fileID: 7804197533827641970}
+  m_Layer: 0
+  m_Name: ARGlassesRig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &283515177615055871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283515177615055868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7001275980920949622}
+  - {fileID: 7906566068114070125}
+  - {fileID: 2552840191184501765}
+  - {fileID: 4832961595168712119}
+  - {fileID: 8072193433373356024}
+  - {fileID: 8275945908671599266}
+  - {fileID: 1032131817604632865}
+  - {fileID: 5464300498405705583}
+  - {fileID: 8116796639599730169}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7804197533827641970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283515177615055868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2fd469941c416196d906671d3a79b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eyeTrackingRig: {fileID: 0}
+  _wristband: {fileID: 0}
+  _leftHandRig: {fileID: 0}
+  _rightHandRig: {fileID: 0}
+  _emulator: {fileID: 0}
+  _lastGaze:
+    _eyes:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _head:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+  _lastLeft:
+    _side: 0
+    _pinch:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _wrist:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _ray:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _rayActive: 0
+    _indexStrength: 0
+    _middleStrength: 0
+    _indexPinching: 0
+    _middlePinching: 0
+    _bones:
+      Wrist:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      Forearm:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      IndexProximal:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      IndexDistal:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      IndexTip:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      ThumbProximal:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      ThumbDistal:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      ThumbTip:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      Scale: 0
+    _isTracked: 0
+  _lastRight:
+    _side: 0
+    _pinch:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _wrist:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _ray:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _rayActive: 0
+    _indexStrength: 0
+    _middleStrength: 0
+    _indexPinching: 0
+    _middlePinching: 0
+    _bones:
+      Wrist:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      Forearm:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      IndexProximal:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      IndexDistal:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      IndexTip:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      ThumbProximal:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      ThumbDistal:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      ThumbTip:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      Scale: 0
+    _isTracked: 0
+  _lastWristband:
+    _isConnected: 0
+    _index: 0
+    _middle: 0
+    _dPad: 0
+    _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+    _projectedRadians: {x: 0, y: 0}
+    _twistDegrees: 0
+    _side: 0
+    _handMotion: 0
+  _isUserInHmd: 0
+  _snapshotFrame: 0
+  _snapshotCache:
+    _gaze:
+      _eyes:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _head:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+    _leftHand:
+      _side: 0
+      _pinch:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _wrist:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _ray:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _rayActive: 0
+      _indexStrength: 0
+      _middleStrength: 0
+      _indexPinching: 0
+      _middlePinching: 0
+      _bones:
+        Wrist:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        Forearm:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexProximal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexDistal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexTip:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbProximal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbDistal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbTip:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        Scale: 0
+      _isTracked: 0
+    _rightHand:
+      _side: 0
+      _pinch:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _wrist:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _ray:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _rayActive: 0
+      _indexStrength: 0
+      _middleStrength: 0
+      _indexPinching: 0
+      _middlePinching: 0
+      _bones:
+        Wrist:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        Forearm:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexProximal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexDistal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexTip:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbProximal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbDistal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbTip:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        Scale: 0
+      _isTracked: 0
+    _wristband:
+      _isConnected: 0
+      _index: 0
+      _middle: 0
+      _dPad: 0
+      _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+      _projectedRadians: {x: 0, y: 0}
+      _twistDegrees: 0
+      _side: 0
+      _handMotion: 0
+    _isUserInHmd: 0
+--- !u!1 &333288664872707239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6644987564410680386}
+  - component: {fileID: 4202879016210540463}
+  m_Layer: 0
+  m_Name: CursorInputContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6644987564410680386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333288664872707239}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6137125628698548328}
+  m_Father: {fileID: 1032131817604632865}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4202879016210540463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333288664872707239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dffba0617ae48588aeb3e510ef9ce23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetContextHits: []
+  _leashedSurface: {fileID: 0}
+  _conecastSurfaceOffset: 0.5
+  _style: 1
+  _handTrackingSensitivity: 2.5
+  _imuSensitivity: 1
+  _panelTransitionMode: 0
+  _previousTargetContext: {fileID: 0}
+  _targetContext: {fileID: 0}
+  _wristbandStreams: {fileID: 0}
+  _conecaster: {fileID: 0}
+  _conecastResult:
+    target: {fileID: 0}
+    component: {fileID: 0}
+    hitPoint: {x: 0, y: 0, z: 0}
+    hitNormal: {x: 0, y: 0, z: 0}
+    hitPointDistance: 0
+    gazePoint: {x: 0, y: 0, z: 0}
+    gazeToColliderAngleDegrees: 0
+    sortOrder: 0
+    cone:
+      radiusDegrees: 0
+      maxDistance: 0
+  _lastFocus:
+    _target: {fileID: 0}
+    _targetHit:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _targetPose:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _primarySide: 0
+    _isPressingPrimary: 0
+    _isPressingSecondary: 0
+  _cursorLocal: {x: 0, y: 0, z: 0}
+  _lastImuReferenceDelta: {x: 0, y: 0}
+  _previousWrist:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _wristband: {fileID: 0}
+  _continuousSurfaceHopDistance: 0.3
+--- !u!1 &1133821226054455967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4204779066058790043}
+  m_Layer: 0
+  m_Name: RightControllerInHandAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4204779066058790043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133821226054455967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3536892741754962304}
+  m_Father: {fileID: 7001275980921044644}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1226839501355855666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6137125628698548328}
+  - component: {fileID: 8450609780306439031}
+  - component: {fileID: 3879044635006921161}
+  - component: {fileID: 7406863603284898543}
+  m_Layer: 0
+  m_Name: _leashedSurface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6137125628698548328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226839501355855666}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6644987564410680386}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8450609780306439031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226839501355855666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3db113e9e2f43d18074aa77ee7d318d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 0}
+  _activeArea: {fileID: 0}
+  _forceAllTargets: 1
+  _additionalTargetProviders: []
+  _targetGroup: {fileID: 0}
+  _isFocused: 0
+--- !u!114 &3879044635006921161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226839501355855666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff6a68fe7854a00ad79066a903a9020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _distance: 0.9
+  _distanceMin: 0.85
+  _distanceMax: 0.95
+  _heightOffset: 0
+  _maxHorizontalAngleLeash: 5
+  _positionLerpSpeed: 16
+  _rotationLerpSpeed: 32
+  _applyPosition: 1
+  _billboard: 1
+  _billboardIncludesPitch: 1
+--- !u!65 &7406863603284898543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226839501355855666}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.8, y: 0.8, z: 0.005}
+  m_Center: {x: 0, y: 0, z: 0.0025}
+--- !u!1 &2046494211256004297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2049116174259812303}
+  - component: {fileID: 2159113501258231131}
+  - component: {fileID: 2159256920687630211}
+  m_Layer: 0
+  m_Name: LeftOVRHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2049116174259812303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046494211256004297}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7001275980921031328}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2159113501258231131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046494211256004297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HandType: 0
+  _pointerPoseRoot: {fileID: 3695940807430500884}
+  m_showState: 3
+  RayHelper: {fileID: 0}
+--- !u!114 &2159256920687630211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046494211256004297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skeletonType: 0
+  _updateRootPose: 0
+  _updateRootScale: 1
+  _enablePhysicsCapsules: 0
+  _applyBoneTranslations: 1
+--- !u!1 &2207456729985045350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1297235577517367694}
+  - component: {fileID: 8571778555661953141}
+  m_Layer: 0
+  m_Name: ARGlassesRigDebug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1297235577517367694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2207456729985045350}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8116796639599730169}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8571778555661953141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2207456729985045350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b9cf369e7f447f8685c3300d1dc499, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _defaultActiveInLink: 1
+  _axisSize: 0.015
+  _lineWidth: 0.0015
+  _neutralColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  _indirectHoverColor: {r: 0.7, g: 0.3, b: 0.8, a: 1}
+  _directHoverColor: {r: 0.2, g: 0.9, b: 0.9, a: 1}
+  _selectColor: {r: 0.2, g: 0.8, b: 0.2, a: 1}
+  _cvColor: {r: 0, g: 0, b: 1, a: 1}
+  _emgColor: {r: 1, g: 0, b: 0, a: 1}
+  _rig: {fileID: 0}
+  _camera: {fileID: 0}
+  _lastHoverDistance: 0
+  _selector: {fileID: 0}
+  _prioritizer: {fileID: 0}
+  _active: 0
+--- !u!1 &2369137908831954376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3695940807430500884}
+  m_Layer: 0
+  m_Name: OVRHandPointerPoseRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3695940807430500884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369137908831954376}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7001275980921016884}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2673109338604606746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6083017780700254690}
+  - component: {fileID: 6821733490672014077}
+  m_Layer: 0
+  m_Name: HandTrackingLossSimulation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6083017780700254690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2673109338604606746}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2552840191184501765}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6821733490672014077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2673109338604606746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f394e1934a848ec94d9f58b712e246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rig: {fileID: 0}
+  _ovrCameraRig: {fileID: 0}
+  _cones: []
+  _drawDebug: 0
+--- !u!1 &2746471882544200561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2743846976061235831}
+  - component: {fileID: 2850004844965837027}
+  - component: {fileID: 2849879983550644795}
+  m_Layer: 0
+  m_Name: RightOVRHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2743846976061235831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746471882544200561}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7001275980921044644}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2850004844965837027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746471882544200561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HandType: 1
+  _pointerPoseRoot: {fileID: 3695940807430500884}
+  m_showState: 3
+  RayHelper: {fileID: 0}
+--- !u!114 &2849879983550644795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746471882544200561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skeletonType: 1
+  _updateRootPose: 0
+  _updateRootScale: 1
+  _enablePhysicsCapsules: 0
+  _applyBoneTranslations: 1
+--- !u!1 &3265639126107612520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7166646210831927037}
+  m_Layer: 0
+  m_Name: Latency
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7166646210831927037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265639126107612520}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2552840191184501765}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3480844092574545120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4832961595168712119}
+  - component: {fileID: 7959992457507599390}
+  - component: {fileID: 3901628216179664672}
+  m_Layer: 0
+  m_Name: EyeTrackingRig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4832961595168712119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3480844092574545120}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 283515177615055871}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7959992457507599390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3480844092574545120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46d33023e9d24dd58098b275c4316ecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rig: {fileID: 0}
+  _isEyeTrackingEnabled: 0
+  _isPermissionGranted: 0
+  _errorMessage: 
+--- !u!114 &3901628216179664672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3480844092574545120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f11d5a1950d0649931fd6dc00e8193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fullRig: {fileID: 0}
+  _headPose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  _eyesTracked: 0
+  _eyesPose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  _snapshot:
+    _eyes:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _head:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+  _ovrCameraRig: {fileID: 0}
+  _useOvrEyeGazeInteraction: 0
+  _eyeApiReturnValue: 0
+  _leftEyePose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  _rightEyePose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3539631529651397193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3536892741754962304}
+  m_Layer: 0
+  m_Name: RightHandOnControllerAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3536892741754962304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3539631529651397193}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4204779066058790043}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3642705515311179507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2421848160729581373}
+  - component: {fileID: 3668576648753802173}
+  m_Layer: 0
+  m_Name: MouseKeyboardEmulator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2421848160729581373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3642705515311179507}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7963739451391998584}
+  m_Father: {fileID: 2552840191184501765}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3668576648753802173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3642705515311179507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a846354a5f6b4251bcd6fb38ff1cb94e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pushPullSpeed: 1
+  _playerMoveSpeed: 1
+  _forwardMoveSpeedScale: 0.5
+  _horizontalMoveSpeedScale: 0.75
+  _verticalMoveSpeedScale: 0.65
+  _handsOffsetFromEyes: {x: 0.2, y: -0.15, z: 0.25}
+  _mouseToHandManipulationScale: 0.0025
+  _mouseControlWarmUpTime: 0.2
+  _simulateEyeGazeJitter: 0
+  _jitterSimRange: {x: 0.01, y: 0.01}
+  _jitterSimFrequency: 0.1
+  _leftIndexMouseButton: 4
+  _leftMiddleMouseButton: 3
+  _rightIndexMouseButton: 0
+  _rightMiddleMouseButton: 1
+  LeftIndexKey: 120
+  LeftMiddleKey: 122
+  StopPlaybackKey: 27
+  PauseUnpauseKey: 112
+  LockScreenRotation: 304
+  _moveForwardKey: 119
+  _moveBackwardKey: 115
+  _moveLeftKey: 97
+  _moveRightKey: 100
+  _moveUpKey: 32
+  _moveDownKey: 306
+  _arrowKeysRotateHead: 1
+  _handDragKey: 0
+  _pullKey: 0
+  _pushKey: 0
+  _toggleDebugVisualization: 293
+  _selector: {fileID: 0}
+  _ovrCameraRig: {fileID: 0}
+  _rig: {fileID: 0}
+  _debug: {fileID: 0}
+  _cursorPlane: {fileID: 0}
+  _mouseOffsetFromCenter: {x: 0, y: 0, z: 0}
+  _mouseCursorOffsetZ: 0.002
+  _mouseCursorSize: 0.0005
+  _suppressPinches: 0
+  _mouseSensitivity: 3
+  _hmdEuler: {x: 0, y: 0, z: 0}
+  _hmdLocalPose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  _playerMovementPose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  _eyeGazePose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  _camera: {fileID: 0}
+  _left:
+    _side: 1
+    _index: 0
+    _middle: 0
+    _root:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _pointer:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _drag: {x: 0, y: 0, z: 0}
+  _right:
+    _side: 2
+    _index: 0
+    _middle: 0
+    _root:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _pointer:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _drag: {x: 0, y: 0, z: 0}
+  _edgeRotationScale: 75
+  _edgeRotationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.0013059261
+      outSlope: 0.0013059261
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.7
+      value: 0
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 8.708606
+      outSlope: 8.708606
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.016648324
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &3811128741195182756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7963739451391998584}
+  - component: {fileID: 8212640009162578266}
+  - component: {fileID: 2814771856722891447}
+  m_Layer: 0
+  m_Name: _cursorPlane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7963739451391998584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3811128741195182756}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.0005, y: 0.0005, z: 0.0005}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2421848160729581373}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &8212640009162578266
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3811128741195182756}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2814771856722891447
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3811128741195182756}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 59d10470579369d488d056f02e69b0ac, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3848833419348814742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2704656739223089786}
+  m_Layer: 0
+  m_Name: LeftHandOnControllerAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2704656739223089786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3848833419348814742}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6351577290954107729}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4058531699678620103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7537567637270166413}
+  - component: {fileID: 8302544352001429401}
+  m_Layer: 0
+  m_Name: HandsInputContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7537567637270166413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4058531699678620103}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1032131817604632865}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8302544352001429401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4058531699678620103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc133e11096423e946c74276d92b922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetContextHits: []
+  _style: 1
+  _forceDirectRay: 1
+  _targetContext: {fileID: 0}
+  _conecaster: {fileID: 0}
+  _conecastResult:
+    target: {fileID: 0}
+    component: {fileID: 0}
+    hitPoint: {x: 0, y: 0, z: 0}
+    hitNormal: {x: 0, y: 0, z: 0}
+    hitPointDistance: 0
+    gazePoint: {x: 0, y: 0, z: 0}
+    gazeToColliderAngleDegrees: 0
+    sortOrder: 0
+    cone:
+      radiusDegrees: 0
+      maxDistance: 0
+  _lastFocus:
+    _target: {fileID: 0}
+    _targetHit:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _targetPose:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _primarySide: 0
+    _isPressingPrimary: 0
+    _isPressingSecondary: 0
+  _cursorWorld: {x: 0, y: 0, z: 0}
+  _pitchedRay:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _acceleratedRay:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _activeSide: 2
+  _rayActive: 0
+--- !u!1 &4407191456395023290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2552840191184501765}
+  m_Layer: 0
+  m_Name: Simulation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2552840191184501765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4407191456395023290}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6083017780700254690}
+  - {fileID: 2421848160729581373}
+  - {fileID: 7166646210831927037}
+  - {fileID: 1460235548260848881}
+  - {fileID: 8222847326985173013}
+  m_Father: {fileID: 283515177615055871}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5204649076292444122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3624233354675094068}
+  - component: {fileID: 2677840054663812391}
+  m_Layer: 0
+  m_Name: ARGlassesHud
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3624233354675094068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5204649076292444122}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8116796639599730169}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2677840054663812391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5204649076292444122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefb1e141fe048a98866fbc7f317d474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rig: {fileID: 0}
+  _selector: {fileID: 0}
+--- !u!1 &5303725367512841731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3297882429811117290}
+  - component: {fileID: 5662109878698000792}
+  m_Layer: 0
+  m_Name: ARGlassesEyeTrackingDebug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3297882429811117290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303725367512841731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8116796639599730169}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5662109878698000792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303725367512841731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604cc8205a5d4bf38aea841557f36242, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _warmUpSeconds: 5
+  _initialization: {fileID: 0}
+--- !u!1 &5551349945307895825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8116796639599730169}
+  m_Layer: 0
+  m_Name: Debug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8116796639599730169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5551349945307895825}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1297235577517367694}
+  - {fileID: 3297882429811117290}
+  - {fileID: 3624233354675094068}
+  - {fileID: 8322082478465345788}
+  m_Father: {fileID: 283515177615055871}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5661662458724228329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3255224471669086192}
+  - component: {fileID: 7029800778997789347}
+  m_Layer: 0
+  m_Name: CardinalInputContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3255224471669086192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5661662458724228329}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1032131817604632865}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7029800778997789347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5661662458724228329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e8ae1d8e9c4724b3a3288b2051ed9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetContextHits: []
+  _targetContext: {fileID: 0}
+  _focused: {fileID: 0}
+  _lastNeighborRaycastHit:
+    _source: {fileID: 0}
+    _destination: {fileID: 0}
+  _lastFocusPositionLocal: {x: 0, y: 0, z: 0}
+--- !u!1 &5886468908749070980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5464300498405705583}
+  - component: {fileID: 9192621693807499085}
+  - component: {fileID: 6419592921971233458}
+  m_Layer: 0
+  m_Name: Selector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5464300498405705583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5886468908749070980}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 283515177615055871}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9192621693807499085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5886468908749070980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7917982d0a8c5714b9b76a236a8c3f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rig: {fileID: 0}
+  _input: {fileID: 0}
+  _target: {fileID: 0}
+  _hoverBegin:
+    _target: {fileID: 0}
+    _targetHit:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _targetPose:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _primarySide: 0
+    _isPressingPrimary: 0
+    _isPressingSecondary: 0
+  _selectedBegin:
+    _target: {fileID: 0}
+    _targetHit:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _targetPose:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _primarySide: 0
+    _isPressingPrimary: 0
+    _isPressingSecondary: 0
+  _sequence:
+    _latest:
+      _timeStamp: 0
+      _rigSnapshot:
+        _gaze:
+          _eyes:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _head:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+        _leftHand:
+          _side: 0
+          _pinch:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _wrist:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _ray:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _rayActive: 0
+          _indexStrength: 0
+          _middleStrength: 0
+          _indexPinching: 0
+          _middlePinching: 0
+          _bones:
+            Wrist:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Forearm:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Scale: 0
+          _isTracked: 0
+        _rightHand:
+          _side: 0
+          _pinch:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _wrist:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _ray:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _rayActive: 0
+          _indexStrength: 0
+          _middleStrength: 0
+          _indexPinching: 0
+          _middlePinching: 0
+          _bones:
+            Wrist:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Forearm:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Scale: 0
+          _isTracked: 0
+        _wristband:
+          _isConnected: 0
+          _index: 0
+          _middle: 0
+          _dPad: 0
+          _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+          _projectedRadians: {x: 0, y: 0}
+          _twistDegrees: 0
+          _side: 0
+          _handMotion: 0
+        _isUserInHmd: 0
+      _focus:
+        _target: {fileID: 0}
+        _targetHit:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _targetPose:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _primarySide: 0
+        _isPressingPrimary: 0
+        _isPressingSecondary: 0
+    _previous:
+      _timeStamp: 0
+      _rigSnapshot:
+        _gaze:
+          _eyes:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _head:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+        _leftHand:
+          _side: 0
+          _pinch:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _wrist:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _ray:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _rayActive: 0
+          _indexStrength: 0
+          _middleStrength: 0
+          _indexPinching: 0
+          _middlePinching: 0
+          _bones:
+            Wrist:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Forearm:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Scale: 0
+          _isTracked: 0
+        _rightHand:
+          _side: 0
+          _pinch:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _wrist:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _ray:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _rayActive: 0
+          _indexStrength: 0
+          _middleStrength: 0
+          _indexPinching: 0
+          _middlePinching: 0
+          _bones:
+            Wrist:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Forearm:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Scale: 0
+          _isTracked: 0
+        _wristband:
+          _isConnected: 0
+          _index: 0
+          _middle: 0
+          _dPad: 0
+          _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+          _projectedRadians: {x: 0, y: 0}
+          _twistDegrees: 0
+          _side: 0
+          _handMotion: 0
+        _isUserInHmd: 0
+      _focus:
+        _target: {fileID: 0}
+        _targetHit:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _targetPose:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _primarySide: 0
+        _isPressingPrimary: 0
+        _isPressingSecondary: 0
+    _begin:
+      _timeStamp: 0
+      _rigSnapshot:
+        _gaze:
+          _eyes:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _head:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+        _leftHand:
+          _side: 0
+          _pinch:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _wrist:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _ray:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _rayActive: 0
+          _indexStrength: 0
+          _middleStrength: 0
+          _indexPinching: 0
+          _middlePinching: 0
+          _bones:
+            Wrist:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Forearm:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Scale: 0
+          _isTracked: 0
+        _rightHand:
+          _side: 0
+          _pinch:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _wrist:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _ray:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _rayActive: 0
+          _indexStrength: 0
+          _middleStrength: 0
+          _indexPinching: 0
+          _middlePinching: 0
+          _bones:
+            Wrist:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Forearm:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            IndexTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbProximal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbDistal:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            ThumbTip:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            Scale: 0
+          _isTracked: 0
+        _wristband:
+          _isConnected: 0
+          _index: 0
+          _middle: 0
+          _dPad: 0
+          _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+          _projectedRadians: {x: 0, y: 0}
+          _twistDegrees: 0
+          _side: 0
+          _handMotion: 0
+        _isUserInHmd: 0
+      _focus:
+        _target: {fileID: 0}
+        _targetHit:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _targetPose:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _primarySide: 0
+        _isPressingPrimary: 0
+        _isPressingSecondary: 0
+  _rigSnapshot:
+    _gaze:
+      _eyes:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _head:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+    _leftHand:
+      _side: 0
+      _pinch:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _wrist:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _ray:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _rayActive: 0
+      _indexStrength: 0
+      _middleStrength: 0
+      _indexPinching: 0
+      _middlePinching: 0
+      _bones:
+        Wrist:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        Forearm:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexProximal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexDistal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexTip:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbProximal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbDistal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbTip:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        Scale: 0
+      _isTracked: 0
+    _rightHand:
+      _side: 0
+      _pinch:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _wrist:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _ray:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 0}
+      _rayActive: 0
+      _indexStrength: 0
+      _middleStrength: 0
+      _indexPinching: 0
+      _middlePinching: 0
+      _bones:
+        Wrist:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        Forearm:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexProximal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexDistal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        IndexTip:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbProximal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbDistal:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        ThumbTip:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        Scale: 0
+      _isTracked: 0
+    _wristband:
+      _isConnected: 0
+      _index: 0
+      _middle: 0
+      _dPad: 0
+      _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+      _projectedRadians: {x: 0, y: 0}
+      _twistDegrees: 0
+      _side: 0
+      _handMotion: 0
+    _isUserInHmd: 0
+  _lastCategory: 0
+  _lastSelectorEvent:
+    _hover:
+      _focus:
+        _target: {fileID: 0}
+        _targetHit:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _targetPose:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _primarySide: 0
+        _isPressingPrimary: 0
+        _isPressingSecondary: 0
+      _phase: 0
+      _interactionState:
+        _timeStamp: 0
+        _rigSnapshot:
+          _gaze:
+            _eyes:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _head:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+          _leftHand:
+            _side: 0
+            _pinch:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _wrist:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _ray:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _rayActive: 0
+            _indexStrength: 0
+            _middleStrength: 0
+            _indexPinching: 0
+            _middlePinching: 0
+            _bones:
+              Wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              Forearm:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              IndexProximal:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              IndexDistal:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              IndexTip:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              ThumbProximal:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              ThumbDistal:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              ThumbTip:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              Scale: 0
+            _isTracked: 0
+          _rightHand:
+            _side: 0
+            _pinch:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _wrist:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _ray:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _rayActive: 0
+            _indexStrength: 0
+            _middleStrength: 0
+            _indexPinching: 0
+            _middlePinching: 0
+            _bones:
+              Wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              Forearm:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              IndexProximal:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              IndexDistal:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              IndexTip:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              ThumbProximal:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              ThumbDistal:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              ThumbTip:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              Scale: 0
+            _isTracked: 0
+          _wristband:
+            _isConnected: 0
+            _index: 0
+            _middle: 0
+            _dPad: 0
+            _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+            _projectedRadians: {x: 0, y: 0}
+            _twistDegrees: 0
+            _side: 0
+            _handMotion: 0
+          _isUserInHmd: 0
+        _focus:
+          _target: {fileID: 0}
+          _targetHit:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _targetPose:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+          _primarySide: 0
+          _isPressingPrimary: 0
+          _isPressingSecondary: 0
+      _context: {fileID: 0}
+    _selection:
+      _focus:
+        _target: {fileID: 0}
+        _targetHit:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _targetPose:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _primarySide: 0
+        _isPressingPrimary: 0
+        _isPressingSecondary: 0
+      _phase: 0
+      _sequence:
+        _latest:
+          _timeStamp: 0
+          _rigSnapshot:
+            _gaze:
+              _eyes:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _head:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+            _leftHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _rightHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _wristband:
+              _isConnected: 0
+              _index: 0
+              _middle: 0
+              _dPad: 0
+              _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+              _projectedRadians: {x: 0, y: 0}
+              _twistDegrees: 0
+              _side: 0
+              _handMotion: 0
+            _isUserInHmd: 0
+          _focus:
+            _target: {fileID: 0}
+            _targetHit:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _targetPose:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _primarySide: 0
+            _isPressingPrimary: 0
+            _isPressingSecondary: 0
+        _previous:
+          _timeStamp: 0
+          _rigSnapshot:
+            _gaze:
+              _eyes:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _head:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+            _leftHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _rightHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _wristband:
+              _isConnected: 0
+              _index: 0
+              _middle: 0
+              _dPad: 0
+              _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+              _projectedRadians: {x: 0, y: 0}
+              _twistDegrees: 0
+              _side: 0
+              _handMotion: 0
+            _isUserInHmd: 0
+          _focus:
+            _target: {fileID: 0}
+            _targetHit:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _targetPose:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _primarySide: 0
+            _isPressingPrimary: 0
+            _isPressingSecondary: 0
+        _begin:
+          _timeStamp: 0
+          _rigSnapshot:
+            _gaze:
+              _eyes:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _head:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+            _leftHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _rightHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _wristband:
+              _isConnected: 0
+              _index: 0
+              _middle: 0
+              _dPad: 0
+              _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+              _projectedRadians: {x: 0, y: 0}
+              _twistDegrees: 0
+              _side: 0
+              _handMotion: 0
+            _isUserInHmd: 0
+          _focus:
+            _target: {fileID: 0}
+            _targetHit:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _targetPose:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _primarySide: 0
+            _isPressingPrimary: 0
+            _isPressingSecondary: 0
+      _drag:
+        _latest:
+          _timeStamp: 0
+          _rigSnapshot:
+            _gaze:
+              _eyes:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _head:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+            _leftHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _rightHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _wristband:
+              _isConnected: 0
+              _index: 0
+              _middle: 0
+              _dPad: 0
+              _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+              _projectedRadians: {x: 0, y: 0}
+              _twistDegrees: 0
+              _side: 0
+              _handMotion: 0
+            _isUserInHmd: 0
+          _focus:
+            _target: {fileID: 0}
+            _targetHit:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _targetPose:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _primarySide: 0
+            _isPressingPrimary: 0
+            _isPressingSecondary: 0
+        _begin:
+          _timeStamp: 0
+          _rigSnapshot:
+            _gaze:
+              _eyes:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _head:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+            _leftHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _rightHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _wristband:
+              _isConnected: 0
+              _index: 0
+              _middle: 0
+              _dPad: 0
+              _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+              _projectedRadians: {x: 0, y: 0}
+              _twistDegrees: 0
+              _side: 0
+              _handMotion: 0
+            _isUserInHmd: 0
+          _focus:
+            _target: {fileID: 0}
+            _targetHit:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _targetPose:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _primarySide: 0
+            _isPressingPrimary: 0
+            _isPressingSecondary: 0
+        _origin:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _destination:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _lastDeltaTarget: {x: 0, y: 0, z: 0}
+        _lastDeltaTargetMagnitude: 0
+      _dragThisFrame:
+        _latest:
+          _timeStamp: 0
+          _rigSnapshot:
+            _gaze:
+              _eyes:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _head:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+            _leftHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _rightHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _wristband:
+              _isConnected: 0
+              _index: 0
+              _middle: 0
+              _dPad: 0
+              _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+              _projectedRadians: {x: 0, y: 0}
+              _twistDegrees: 0
+              _side: 0
+              _handMotion: 0
+            _isUserInHmd: 0
+          _focus:
+            _target: {fileID: 0}
+            _targetHit:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _targetPose:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _primarySide: 0
+            _isPressingPrimary: 0
+            _isPressingSecondary: 0
+        _begin:
+          _timeStamp: 0
+          _rigSnapshot:
+            _gaze:
+              _eyes:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _head:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+            _leftHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _rightHand:
+              _side: 0
+              _pinch:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _wrist:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _ray:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0, w: 0}
+              _rayActive: 0
+              _indexStrength: 0
+              _middleStrength: 0
+              _indexPinching: 0
+              _middlePinching: 0
+              _bones:
+                Wrist:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Forearm:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                IndexTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbProximal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbDistal:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                ThumbTip:
+                  position: {x: 0, y: 0, z: 0}
+                  rotation: {x: 0, y: 0, z: 0, w: 0}
+                Scale: 0
+              _isTracked: 0
+            _wristband:
+              _isConnected: 0
+              _index: 0
+              _middle: 0
+              _dPad: 0
+              _orientationNotAlignedInYaw: {x: 0, y: 0, z: 0, w: 0}
+              _projectedRadians: {x: 0, y: 0}
+              _twistDegrees: 0
+              _side: 0
+              _handMotion: 0
+            _isUserInHmd: 0
+          _focus:
+            _target: {fileID: 0}
+            _targetHit:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _targetPose:
+              position: {x: 0, y: 0, z: 0}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+            _primarySide: 0
+            _isPressingPrimary: 0
+            _isPressingSecondary: 0
+        _origin:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _destination:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+        _lastDeltaTarget: {x: 0, y: 0, z: 0}
+        _lastDeltaTargetMagnitude: 0
+      _context: {fileID: 0}
+    _route: []
+    _selector: {fileID: 0}
+  _lastHoverFocus:
+    _target: {fileID: 0}
+    _targetHit:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _targetPose:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _primarySide: 0
+    _isPressingPrimary: 0
+    _isPressingSecondary: 0
+--- !u!114 &6419592921971233458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5886468908749070980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30920e79f1ae47228b78b2be9a5c3a67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _selector: {fileID: 0}
+  _wristband: {fileID: 0}
+  _left:
+    _index:
+      _side: 0
+      _finger: 0
+      _isPinching: 0
+      _wasPinching: 0
+      _doublePress:
+        _isDoublePressing: 0
+        _lastPressBeginTime: 0
+      _shortPress:
+        _isShortPressing: 0
+        _lastPinchBeginTime: 0
+      _longPress:
+        _lastPressBeginTime: 0
+        _waiting: 0
+        _isLongPressing: 0
+    _middle:
+      _side: 0
+      _finger: 0
+      _isPinching: 0
+      _wasPinching: 0
+      _doublePress:
+        _isDoublePressing: 0
+        _lastPressBeginTime: 0
+      _shortPress:
+        _isShortPressing: 0
+        _lastPinchBeginTime: 0
+      _longPress:
+        _lastPressBeginTime: 0
+        _waiting: 0
+        _isLongPressing: 0
+  _right:
+    _index:
+      _side: 0
+      _finger: 0
+      _isPinching: 0
+      _wasPinching: 0
+      _doublePress:
+        _isDoublePressing: 0
+        _lastPressBeginTime: 0
+      _shortPress:
+        _isShortPressing: 0
+        _lastPinchBeginTime: 0
+      _longPress:
+        _lastPressBeginTime: 0
+        _waiting: 0
+        _isLongPressing: 0
+    _middle:
+      _side: 0
+      _finger: 0
+      _isPinching: 0
+      _wasPinching: 0
+      _doublePress:
+        _isDoublePressing: 0
+        _lastPressBeginTime: 0
+      _shortPress:
+        _isShortPressing: 0
+        _lastPinchBeginTime: 0
+      _longPress:
+        _lastPressBeginTime: 0
+        _waiting: 0
+        _isLongPressing: 0
+--- !u!1 &6035554906428645294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3569717484621300435}
+  m_Layer: 0
+  m_Name: LeftHandAnchorDetached
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3569717484621300435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6035554906428645294}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7001275980921016884}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6601075348562365896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1032131817604632865}
+  - component: {fileID: 4482678841276764844}
+  m_Layer: 0
+  m_Name: InputContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1032131817604632865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601075348562365896}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2607402737257827151}
+  - {fileID: 7537567637270166413}
+  - {fileID: 6644987564410680386}
+  - {fileID: 3255224471669086192}
+  m_Father: {fileID: 283515177615055871}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4482678841276764844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601075348562365896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d492997604494ca8a06f6d69c5ffa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _selector: {fileID: 9192621693807499085}
+  _wristband: {fileID: 0}
+  _forceLeashedSurface: 0
+  _defaultInputCategory: 0
+  _inputContexts:
+  - {fileID: 2567844714847369780}
+  - {fileID: 8302544352001429401}
+  - {fileID: 4202879016210540463}
+  - {fileID: 7029800778997789347}
+  _keyCodes: 1a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000
+  _eyeGazeContext: {fileID: 0}
+  _handsContext: {fileID: 0}
+  _cursorContext: {fileID: 0}
+  _cardinalContext: {fileID: 0}
+  _inputContext: {fileID: 0}
+  _targetContext: {fileID: 0}
+  _rig: {fileID: 0}
+  _loadSavedContextCategory: 0
+  _renderDebug: 1
+--- !u!1 &6671708724833335663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5513365718827022256}
+  m_Layer: 0
+  m_Name: RightHandAnchorDetached
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5513365718827022256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6671708724833335663}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7001275980921016884}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7427402561983859263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6350142082024342426}
+  - component: {fileID: 6046763156768496512}
+  - component: {fileID: 5386439671008887971}
+  m_Layer: 0
+  m_Name: DistancePrioritizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6350142082024342426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7427402561983859263}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2607402737257827151}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6046763156768496512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7427402561983859263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e8e94febdb46cea67b40baf64d8985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _drawConecastDebug: 1
+  _hoverLeaveThresholdDegrees: 0.5
+  _hoverDistance: 0
+  _orderedTarget: []
+  _lastResult:
+    target: {fileID: 0}
+    component: {fileID: 0}
+    hitPoint: {x: 0, y: 0, z: 0}
+    hitNormal: {x: 0, y: 0, z: 0}
+    hitPointDistance: 0
+    gazePoint: {x: 0, y: 0, z: 0}
+    gazeToColliderAngleDegrees: 0
+    sortOrder: 0
+    cone:
+      radiusDegrees: 0
+      maxDistance: 0
+  _closestIndex: 0
+  _comparisons: []
+--- !u!114 &5386439671008887971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7427402561983859263}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be7f17c82c6547e2982f7837095508f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rig: {fileID: 0}
+  _leashDistance: 0.05
+  _zWristHeadspace: 0
+  _zAnchor: 0
+  _anchorToWrist: 0
+  _wristZLerp: 0
+  _minDist: 0
+  _maxDist: 0
+  _continuous: 0
+  _scrollSpeed: 0.5
+  _accumulatedZMotion: 0
+  _lastWristHeadspace: 0
+  _conecaster: {fileID: 0}
+  _wristband: {fileID: 0}
+--- !u!1 &7683905364383772877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460235548260848881}
+  - component: {fileID: 7608921756896350624}
+  m_Layer: 0
+  m_Name: ShellInputEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1460235548260848881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7683905364383772877}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2552840191184501765}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7608921756896350624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7683905364383772877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e0dc7666124f5e92e74eee772d5915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _editorToggleWakeKey: 279
+  _editorToggleLaunchKey: 278
+  _debugLogs: 1
+  _wakeState: 0
+  _personalSpaceState: 0
+  _globalEvents: {fileID: 0}
+--- !u!1 &7777741215296310202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6351577290954107729}
+  m_Layer: 0
+  m_Name: LeftControllerInHandAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6351577290954107729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7777741215296310202}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2704656739223089786}
+  m_Father: {fileID: 7001275980921031328}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8022043191613563486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2607402737257827151}
+  - component: {fileID: 2567844714847369780}
+  - component: {fileID: 966822593640195240}
+  - component: {fileID: 4015687659981136307}
+  m_Layer: 0
+  m_Name: EyeGazeInputContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2607402737257827151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8022043191613563486}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6350142082024342426}
+  m_Father: {fileID: 1032131817604632865}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2567844714847369780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8022043191613563486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc80ae143ae746d1993c1122d053db29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetContextHits: []
+  _conecaster: {fileID: 0}
+  _conecastResult:
+    target: {fileID: 0}
+    component: {fileID: 0}
+    hitPoint: {x: 0, y: 0, z: 0}
+    hitNormal: {x: 0, y: 0, z: 0}
+    hitPointDistance: 0
+    gazePoint: {x: 0, y: 0, z: 0}
+    gazeToColliderAngleDegrees: 0
+    sortOrder: 0
+    cone:
+      radiusDegrees: 0
+      maxDistance: 0
+  _eyeVelocityBuffer: {fileID: 0}
+  _lastFocus:
+    _target: {fileID: 0}
+    _targetHit:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _targetPose:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    _primarySide: 0
+    _isPressingPrimary: 0
+    _isPressingSecondary: 0
+  _targetContext: {fileID: 0}
+  _wristband: {fileID: 0}
+--- !u!114 &966822593640195240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8022043191613563486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c446432a8be4f6d9e51c4e27714c9fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coneRadiusDegrees: 2
+  _maxRayLength: 10
+  _prioritizer: {fileID: 0}
+  _orderedHits: []
+  _lastHit:
+    target: {fileID: 0}
+    component: {fileID: 0}
+    hitPoint: {x: 0, y: 0, z: 0}
+    hitNormal: {x: 0, y: 0, z: 0}
+    hitPointDistance: 0
+    gazePoint: {x: 0, y: 0, z: 0}
+    gazeToColliderAngleDegrees: 0
+    sortOrder: 0
+    cone:
+      radiusDegrees: 0
+      maxDistance: 0
+--- !u!114 &4015687659981136307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8022043191613563486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedff75baa6b4adba255c245a309cc65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fakeHasFixationThreshold: 50
+  _hasFixation: 0
+  _angularVelocity: 0
+  _rig: {fileID: 0}
+--- !u!1 &8072193433373356023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8072193433373356024}
+  - component: {fileID: 2442126218618213258}
+  - component: {fileID: 7085838215425201973}
+  - component: {fileID: 4428566526725250451}
+  m_Layer: 0
+  m_Name: RightHandRig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8072193433373356024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8072193433373356023}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 283515177615055871}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2442126218618213258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8072193433373356023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3f1331a32bb514c89961b2ae3eba4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ovrHand: {fileID: 0}
+  _side: 2
+  _skeleton: {fileID: 0}
+  _allowController: 1
+  _handTrackingLossSimulation: {fileID: 0}
+  _mouseKeyboardEmulator: {fileID: 0}
+  _pinchFilterProperties:
+    _minCutoff: 0.2
+    _beta: 10
+    _dCutoff: 1
+  _wristFilterProperties:
+    _minCutoff: 0.1
+    _beta: 100
+    _dCutoff: 0.6
+--- !u!114 &7085838215425201973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8072193433373356023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c0a214bd074b459000992a8ba2ceb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _finger: 1
+  _selector: {fileID: 0}
+  _ovrOvrHandRig: {fileID: 0}
+  _isPinching: 0
+  _wasPinching: 0
+  _doublePress:
+    _isDoublePressing: 0
+    _lastPressBeginTime: 0
+  _shortPress:
+    _isShortPressing: 0
+    _lastPinchBeginTime: 0
+  _longPress:
+    _lastPressBeginTime: 0
+    _waiting: 0
+    _isLongPressing: 0
+--- !u!114 &4428566526725250451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8072193433373356023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c0a214bd074b459000992a8ba2ceb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _finger: 2
+  _selector: {fileID: 0}
+  _ovrOvrHandRig: {fileID: 0}
+  _isPinching: 0
+  _wasPinching: 0
+  _doublePress:
+    _isDoublePressing: 0
+    _lastPressBeginTime: 0
+  _shortPress:
+    _isShortPressing: 0
+    _lastPinchBeginTime: 0
+  _longPress:
+    _lastPressBeginTime: 0
+    _waiting: 0
+    _isLongPressing: 0
+--- !u!1 &8275945908671599277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8275945908671599266}
+  - component: {fileID: 2537792715176439504}
+  - component: {fileID: 6805892145175503604}
+  - component: {fileID: 1381516664921260583}
+  m_Layer: 0
+  m_Name: LeftHandRig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8275945908671599266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8275945908671599277}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 283515177615055871}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2537792715176439504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8275945908671599277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3f1331a32bb514c89961b2ae3eba4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ovrHand: {fileID: 0}
+  _side: 1
+  _skeleton: {fileID: 0}
+  _allowController: 1
+  _handTrackingLossSimulation: {fileID: 0}
+  _mouseKeyboardEmulator: {fileID: 0}
+  _pinchFilterProperties:
+    _minCutoff: 0.2
+    _beta: 10
+    _dCutoff: 1
+  _wristFilterProperties:
+    _minCutoff: 0.1
+    _beta: 100
+    _dCutoff: 0.6
+--- !u!114 &6805892145175503604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8275945908671599277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c0a214bd074b459000992a8ba2ceb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _finger: 1
+  _selector: {fileID: 0}
+  _ovrOvrHandRig: {fileID: 0}
+  _isPinching: 0
+  _wasPinching: 0
+  _doublePress:
+    _isDoublePressing: 0
+    _lastPressBeginTime: 0
+  _shortPress:
+    _isShortPressing: 0
+    _lastPinchBeginTime: 0
+  _longPress:
+    _lastPressBeginTime: 0
+    _waiting: 0
+    _isLongPressing: 0
+--- !u!114 &1381516664921260583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8275945908671599277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c0a214bd074b459000992a8ba2ceb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _finger: 2
+  _selector: {fileID: 0}
+  _ovrOvrHandRig: {fileID: 0}
+  _isPinching: 0
+  _wasPinching: 0
+  _doublePress:
+    _isDoublePressing: 0
+    _lastPressBeginTime: 0
+  _shortPress:
+    _isShortPressing: 0
+    _lastPinchBeginTime: 0
+  _longPress:
+    _lastPressBeginTime: 0
+    _waiting: 0
+    _isLongPressing: 0
+--- !u!1 &8360741117555680617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8322082478465345788}
+  - component: {fileID: 5632257003502828710}
+  m_Layer: 0
+  m_Name: VisualDegreeOverlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8322082478465345788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360741117555680617}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8116796639599730169}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5632257003502828710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360741117555680617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba966d48bb0a47b2b0f2ec7b21182d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _distanceLerp: 8
+  _showGrid: 0
+  _showFov: 0
+  _selector: {fileID: 0}
+  _targetContext: {fileID: 0}
+  _inputContext: {fileID: 0}
+  _rings: []
+  _defaultLineColor: {r: 0, g: 0, b: 0, a: 0}
+  _defaultFovColor: {r: 0, g: 0, b: 0, a: 0}
+  _sphereRenderer: {fileID: 0}
+  _material: {fileID: 0}
+  _conecaster: {fileID: 0}
+--- !u!1001 &6840825254854220586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2552840191184501765}
+    m_Modifications:
+    - target: {fileID: 3238671152299893564, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: _zDepth
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893564, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: _fovBlend
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893564, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: _depthPrepass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893564, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: _verticalFOVBias
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893564, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: _simulatedPixelPerDegree
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893564, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: _performPPDBasedRenderScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.21336943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.35964996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238671152299893571, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      propertyPath: m_Name
+      value: ARDisplaySimulator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3238671152299893571, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1243905668896595525}
+  m_SourcePrefab: {fileID: 100100000, guid: c5eb1525b9ca94f1f98481b2ecb6df25, type: 3}
+--- !u!4 &8222847326985173013 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3238671152299893567, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+    type: 3}
+  m_PrefabInstance: {fileID: 6840825254854220586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8222847326985173097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3238671152299893571, guid: c5eb1525b9ca94f1f98481b2ecb6df25,
+    type: 3}
+  m_PrefabInstance: {fileID: 6840825254854220586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1243905668896595525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8222847326985173097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4faf9689171a468bac51208c904fc55d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _editorMaskOpacity: 0.9
+  _displaySimulator: {fileID: 0}
+--- !u!1001 &7001275980920820210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 283515177615055871}
+    m_Modifications:
+    - target: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_Name
+      value: OVRCameraRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 2113929271
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: _sharpenType
+      value: 65536
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: _trackingOriginType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: useRecommendedMSAALevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: isInsightPassthroughEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: requestEyeTrackingPermissionOnStartup
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000010189485334, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000010189485334, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000010189485334, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000010189485334, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000010189485334, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000012175207052, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000012175207052, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000012175207052, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000012175207052, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000012175207052, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 459718, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3695940807430500884}
+    - targetCorrespondingSourceObject: {fileID: 459718, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3569717484621300435}
+    - targetCorrespondingSourceObject: {fileID: 459718, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5513365718827022256}
+    - targetCorrespondingSourceObject: {fileID: 482130, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2049116174259812303}
+    - targetCorrespondingSourceObject: {fileID: 482130, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6351577290954107729}
+    - targetCorrespondingSourceObject: {fileID: 487254, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2743846976061235831}
+    - targetCorrespondingSourceObject: {fileID: 487254, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4204779066058790043}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7038883587832566524}
+  m_SourcePrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+--- !u!1 &7001275980920854358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7001275980920820210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7038883587832566524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7001275980920854358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 555725d48e9051a4bb6b8d45178c2fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectionSurfaceType: 0
+  overlayType: 2
+  compositionDepth: 0
+  hidden: 0
+  depthTestEnabled: 0
+  overridePerLayerColorScaleAndOffset: 0
+  colorScale: {x: 1, y: 1, z: 1, w: 1}
+  colorOffset: {x: 0, y: 0, z: 0, w: 0}
+  overrideBlendFactors: 1
+  srcBlendFactor: 1
+  dstBlendFactor: 1
+  colorMapEditorType_: 0
+  colorMapEditorGradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorMapEditorContrast: 0
+  colorMapEditorBrightness: 0
+  colorMapEditorPosterize: 0
+  colorMapEditorSaturation: 0
+  _colorLutSourceTexture: {fileID: 0}
+  _colorLutTargetTexture: {fileID: 0}
+  _lutWeight: 1
+  _flipLutY: 1
+  serializedSurfaceGeometry: []
+  textureOpacity_: 0.15
+  edgeRenderingEnabled_: 0
+  edgeColor_: {r: 1, g: 1, b: 1, a: 1}
+  colorMapType: 0
+--- !u!4 &7001275980920949622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7001275980920820210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7001275980921016884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 459718, guid: 126d619cf4daa52469682f85c1378b4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7001275980920820210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7001275980921031328 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 482130, guid: 126d619cf4daa52469682f85c1378b4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7001275980920820210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7001275980921044644 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 487254, guid: 126d619cf4daa52469682f85c1378b4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7001275980920820210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9204520922431307659
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 283515177615055871}
+    m_Modifications:
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719686141864159220, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296463289182590687, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: m_Name
+      value: ARGlassesWristband
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535386026326025296, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: _miniG
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535386026326025296, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: _nostrand
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535386026326025296, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: _lastMousePosition.x
+      value: -1758.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535386026326025296, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: _lastMousePosition.y
+      value: -419.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866506618345780731, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: _fakeImuScale
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9064651159012231117, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: _xyThreshold
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9064651159012231117, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: PushPullVerticalSuppression
+      value: 0.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 9064651159012231117, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+        type: 3}
+      propertyPath: PushPullHorizontalSuppression
+      value: 0.035
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 198083b8f93bab4498cd86fdc7d8e4e4, type: 3}
+--- !u!4 &7906566068114070125 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1298379129241183718, guid: 198083b8f93bab4498cd86fdc7d8e4e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 9204520922431307659}
+  m_PrefabAsset: {fileID: 0}

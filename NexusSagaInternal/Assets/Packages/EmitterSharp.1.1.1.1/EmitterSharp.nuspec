@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>EmitterSharp</id>
+    <version>1.1.1.1</version>
+    <title>Emitter</title>
+    <authors>uhm0311</authors>
+    <owners>uhm0311</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/uhm0311/EmitterSharp</projectUrl>
+    <description>C# implementation of Emitter in JavaScript module. See https://github.com/component/emitter for details.</description>
+    <releaseNotes>Add .Net core 2.0, 3.0 support.</releaseNotes>
+    <copyright>Copyright (c) 2020 uhm0311</copyright>
+    <tags>Emitter</tags>
+    <repository type="git" url="https://github.com/uhm0311/EmitterSharp.git" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="SimpleThreadMonitor" version="1.0.2.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="SimpleThreadMonitor" version="1.0.2.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="SimpleThreadMonitor" version="1.0.2.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="SimpleThreadMonitor" version="1.0.2.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="SimpleThreadMonitor" version="1.0.2.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

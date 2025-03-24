@@ -1,0 +1,566 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F6FE61-BDA4-1A26-945A-E1C3BE728AAA}|Oculus.Interaction.csproj|c:\\unity_projects\\nexussagainternal\\library\\packagecache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\runtime\\scripts\\interaction\\models\\poke\\pokeinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F6FE61-BDA4-1A26-945A-E1C3BE728AAA}|Oculus.Interaction.csproj|solutionrelative:library\\packagecache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\runtime\\scripts\\interaction\\models\\poke\\pokeinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F6FE61-BDA4-1A26-945A-E1C3BE728AAA}|Oculus.Interaction.csproj|c:\\unity_projects\\nexussagainternal\\library\\packagecache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\runtime\\scripts\\interaction\\models\\poke\\pokeinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F6FE61-BDA4-1A26-945A-E1C3BE728AAA}|Oculus.Interaction.csproj|solutionrelative:library\\packagecache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\runtime\\scripts\\interaction\\models\\poke\\pokeinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|c:\\unity_projects\\nexussagainternal\\assets\\pokeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|solutionrelative:assets\\pokeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC5088CA-6EB1-3671-4A95-7BC17DB56C43}|ARGlasses.Interaction.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.arglasses.interaction\\runtime\\util\\handfinger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC5088CA-6EB1-3671-4A95-7BC17DB56C43}|ARGlasses.Interaction.csproj|solutionrelative:packages\\com.arglasses.interaction\\runtime\\util\\handfinger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D8DEFA-7C7F-4383-037B-CA839B69C7A1}|TestCodeAssembly.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\testcode\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D8DEFA-7C7F-4383-037B-CA839B69C7A1}|TestCodeAssembly.csproj|solutionrelative:assets\\testcode\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC5088CA-6EB1-3671-4A95-7BC17DB56C43}|ARGlasses.Interaction.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.arglasses.interaction\\runtime\\selection\\contextprioritizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC5088CA-6EB1-3671-4A95-7BC17DB56C43}|ARGlasses.Interaction.csproj|solutionrelative:packages\\com.arglasses.interaction\\runtime\\selection\\contextprioritizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD18B0E7-9257-3A26-1FC5-6456AA5631B4}|Robot.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\scripts\\robot\\runtime\\view\\robotoverlayview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD18B0E7-9257-3A26-1FC5-6456AA5631B4}|Robot.csproj|solutionrelative:assets\\scripts\\robot\\runtime\\view\\robotoverlayview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\scripts\\orionnetworkingassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\orionnetworkingassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\playersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|solutionrelative:assets\\playersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D12C664-0F7F-095E-AF8C-D4D883670F69}|Oculus.VR.Editor.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\editor\\ovrengineconfigurationupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D12C664-0F7F-095E-AF8C-D4D883670F69}|Oculus.VR.Editor.csproj|solutionrelative:packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\editor\\ovrengineconfigurationupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UNITY_PROJECTS\\NexusSagaInternal\\Library\\PackageCache\\com.meta.xr.sdk.utilities@60.0.0-empty\\Editor\\UtilitiesDeprecationPrompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.utilities@60.0.0-empty\\Editor\\UtilitiesDeprecationPrompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59CF66F-3F88-AA49-AEC9-45A9CFFC6176}|Mirror.Components.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\mirror\\components\\discovery\\networkdiscoveryhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59CF66F-3F88-AA49-AEC9-45A9CFFC6176}|Mirror.Components.csproj|solutionrelative:assets\\mirror\\components\\discovery\\networkdiscoveryhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59CF66F-3F88-AA49-AEC9-45A9CFFC6176}|Mirror.Components.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\mirror\\components\\discovery\\networkdiscovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59CF66F-3F88-AA49-AEC9-45A9CFFC6176}|Mirror.Components.csproj|solutionrelative:assets\\mirror\\components\\discovery\\networkdiscovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2C6C7C-880A-42CC-4122-6F7D80531B71}|Oculus.VR.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\scripts\\ovranchor\\ovranchorcomponents\\ovranchorcomponents.gen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2C6C7C-880A-42CC-4122-6F7D80531B71}|Oculus.VR.csproj|solutionrelative:packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\scripts\\ovranchor\\ovranchorcomponents\\ovranchorcomponents.gen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\mrukanchor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|solutionrelative:packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\mrukanchor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\mrukroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|solutionrelative:packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\mrukroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2C6C7C-880A-42CC-4122-6F7D80531B71}|Oculus.VR.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\scripts\\ovrspatialanchor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2C6C7C-880A-42CC-4122-6F7D80531B71}|Oculus.VR.csproj|solutionrelative:packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\scripts\\ovrspatialanchor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2C6C7C-880A-42CC-4122-6F7D80531B71}|Oculus.VR.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\scripts\\ovrplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2C6C7C-880A-42CC-4122-6F7D80531B71}|Oculus.VR.csproj|solutionrelative:packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\scripts\\ovrplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2C6C7C-880A-42CC-4122-6F7D80531B71}|Oculus.VR.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\scripts\\ovranchor\\ovranchorcomponents\\ovrsemanticlabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2C6C7C-880A-42CC-4122-6F7D80531B71}|Oculus.VR.csproj|solutionrelative:packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\scripts\\ovranchor\\ovranchorcomponents\\ovrsemanticlabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\scripts\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\scripts\\states\\waitforcamerainitialisationstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\states\\waitforcamerainitialisationstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\scripts\\view\\fullfocuscanvasui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\view\\fullfocuscanvasui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0973EF03-5966-F64F-297E-431E232E2B48}|UIComponents.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\scripts\\uicomponents\\runtime\\sirouiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0973EF03-5966-F64F-297E-431E232E2B48}|UIComponents.csproj|solutionrelative:assets\\scripts\\uicomponents\\runtime\\sirouiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\mruk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|solutionrelative:packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\mruk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\labelfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|solutionrelative:packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\labelfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\findspawnpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|solutionrelative:packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\findspawnpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\anchorprefabspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|solutionrelative:packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\anchorprefabspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\effectmesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|solutionrelative:packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\effectmesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4C43B6-2C05-7836-D8D6-C4162E8CDBCC}|meta.xr.mrutilitykit.csproj|solutionrelative:packages\\com.meta.xr.mrutilitykit@66.0.0\\core\\scripts\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UNITY_PROJECTS\\OrionRenderOptions\\Packages\\manifest.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\scripts\\data\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A4C9E-6222-A494-C091-E1A37F33CB98}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC5088CA-6EB1-3671-4A95-7BC17DB56C43}|ARGlasses.Interaction.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\packages\\com.arglasses.interaction\\runtime\\rig\\arglasseseyetrackingrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC5088CA-6EB1-3671-4A95-7BC17DB56C43}|ARGlasses.Interaction.csproj|solutionrelative:packages\\com.arglasses.interaction\\runtime\\rig\\arglasseseyetrackingrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543E9957-2FF6-6550-2036-A99EB67763CC}|Multiplayer.csproj|C:\\UNITY_PROJECTS\\NexusSagaInternal\\assets\\scripts\\multiplayer\\runtime\\services\\spatialanchorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{543E9957-2FF6-6550-2036-A99EB67763CC}|Multiplayer.csproj|solutionrelative:assets\\scripts\\multiplayer\\runtime\\services\\spatialanchorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\OrionNetworkingAssistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\OrionNetworkingAssistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PokeInteractable.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Library\\PackageCache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractable.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractable.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Library\\PackageCache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractable.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractable.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAhwC0AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:34:55.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PokeResponse.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\PokeResponse.cs",
+              "RelativeDocumentMoniker": "Assets\\PokeResponse.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\PokeResponse.cs",
+              "RelativeToolTip": "Assets\\PokeResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:26:27.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PokeInteractor.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Library\\PackageCache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractor.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractor.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Library\\PackageCache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractor.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.interaction@65.0.0-mainline.22\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractor.cs",
+              "ViewState": "AQIAAM0EAAAAAAAAAAAQwBgFAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:21:54.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\TestCode\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\TestCode\\GameManager.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\TestCode\\GameManager.cs",
+              "RelativeToolTip": "Assets\\TestCode\\GameManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAlwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:12:35.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RobotOverlayView.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\Robot\\Runtime\\View\\RobotOverlayView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Robot\\Runtime\\View\\RobotOverlayView.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\Robot\\Runtime\\View\\RobotOverlayView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Robot\\Runtime\\View\\RobotOverlayView.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T20:28:19.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContextPrioritizer.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.arglasses.interaction\\Runtime\\Selection\\ContextPrioritizer.cs",
+              "RelativeDocumentMoniker": "Packages\\com.arglasses.interaction\\Runtime\\Selection\\ContextPrioritizer.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.arglasses.interaction\\Runtime\\Selection\\ContextPrioritizer.cs",
+              "RelativeToolTip": "Packages\\com.arglasses.interaction\\Runtime\\Selection\\ContextPrioritizer.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAlwIAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T20:01:24.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UtilitiesDeprecationPrompt.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Library\\PackageCache\\com.meta.xr.sdk.utilities@60.0.0-empty\\Editor\\UtilitiesDeprecationPrompt.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.utilities@60.0.0-empty\\Editor\\UtilitiesDeprecationPrompt.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Library\\PackageCache\\com.meta.xr.sdk.utilities@60.0.0-empty\\Editor\\UtilitiesDeprecationPrompt.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.utilities@60.0.0-empty\\Editor\\UtilitiesDeprecationPrompt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:05:22.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OVREngineConfigurationUpdater.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Editor\\OVREngineConfigurationUpdater.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Editor\\OVREngineConfigurationUpdater.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Editor\\OVREngineConfigurationUpdater.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Editor\\OVREngineConfigurationUpdater.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAawGkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T15:50:35.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppData.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\Data\\AppData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\AppData.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\Data\\AppData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\AppData.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:18:34.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerSetup.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\PlayerSetup.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerSetup.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\PlayerSetup.cs",
+              "RelativeToolTip": "Assets\\PlayerSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:49:29.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrionNetworkingAssistant.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\OrionNetworkingAssistant.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OrionNetworkingAssistant.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\OrionNetworkingAssistant.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OrionNetworkingAssistant.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwDgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T21:24:03.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HandFinger.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.arglasses.interaction\\Runtime\\Util\\HandFinger.cs",
+              "RelativeDocumentMoniker": "Packages\\com.arglasses.interaction\\Runtime\\Util\\HandFinger.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.arglasses.interaction\\Runtime\\Util\\HandFinger.cs",
+              "RelativeToolTip": "Packages\\com.arglasses.interaction\\Runtime\\Util\\HandFinger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:18:14.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NetworkDiscoveryHUD.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Mirror\\Components\\Discovery\\NetworkDiscoveryHUD.cs",
+              "RelativeDocumentMoniker": "Assets\\Mirror\\Components\\Discovery\\NetworkDiscoveryHUD.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Mirror\\Components\\Discovery\\NetworkDiscoveryHUD.cs",
+              "RelativeToolTip": "Assets\\Mirror\\Components\\Discovery\\NetworkDiscoveryHUD.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwFgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:29:07.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NetworkDiscovery.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Mirror\\Components\\Discovery\\NetworkDiscovery.cs",
+              "RelativeDocumentMoniker": "Assets\\Mirror\\Components\\Discovery\\NetworkDiscovery.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Mirror\\Components\\Discovery\\NetworkDiscovery.cs",
+              "RelativeToolTip": "Assets\\Mirror\\Components\\Discovery\\NetworkDiscovery.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:28:39.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrionNetworkingAssistant.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\OrionNetworkingAssistant.cs",
+              "RelativeDocumentMoniker": "Assets\\OrionNetworkingAssistant.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\OrionNetworkingAssistant.cs",
+              "RelativeToolTip": "Assets\\OrionNetworkingAssistant.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:27:07.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FullFocusCanvasUI.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\View\\FullFocusCanvasUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\FullFocusCanvasUI.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\View\\FullFocusCanvasUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\FullFocusCanvasUI.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T19:50:45.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WaitForCameraInitialisationState.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\States\\WaitForCameraInitialisationState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\States\\WaitForCameraInitialisationState.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\States\\WaitForCameraInitialisationState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\States\\WaitForCameraInitialisationState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T19:54:22.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SiroUIView.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\UIComponents\\Runtime\\SiroUIView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIComponents\\Runtime\\SiroUIView.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\UIComponents\\Runtime\\SiroUIView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIComponents\\Runtime\\SiroUIView.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T19:53:54.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Root.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\Root.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Root.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\Root.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Root.cs",
+              "ViewState": "AQIAAHIBAAAAAAAAAAAEwHkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T19:06:12.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ARGlassesEyeTrackingRig.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.arglasses.interaction\\Runtime\\Rig\\ARGlassesEyeTrackingRig.cs",
+              "RelativeDocumentMoniker": "Packages\\com.arglasses.interaction\\Runtime\\Rig\\ARGlassesEyeTrackingRig.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.arglasses.interaction\\Runtime\\Rig\\ARGlassesEyeTrackingRig.cs",
+              "RelativeToolTip": "Packages\\com.arglasses.interaction\\Runtime\\Rig\\ARGlassesEyeTrackingRig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:15:44.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OVRSemanticLabels.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRAnchor\\OVRAnchorComponents\\OVRSemanticLabels.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRAnchor\\OVRAnchorComponents\\OVRSemanticLabels.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRAnchor\\OVRAnchorComponents\\OVRSemanticLabels.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRAnchor\\OVRAnchorComponents\\OVRSemanticLabels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T16:00:25.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OVRPlugin.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRPlugin.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRPlugin.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRPlugin.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRPlugin.cs",
+              "ViewState": "AQIAAP0BAAAAAAAAAAAxwBICAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T16:07:33.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OVRSpatialAnchor.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRSpatialAnchor.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRSpatialAnchor.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRSpatialAnchor.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRSpatialAnchor.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAEwC0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:08:18.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MRUKRoom.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUKRoom.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUKRoom.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUKRoom.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUKRoom.cs",
+              "ViewState": "AQIAAMcDAAAAAAAAAAAewNoDAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:40:05.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MRUKAnchor.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUKAnchor.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUKAnchor.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUKAnchor.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUKAnchor.cs",
+              "ViewState": "AQIAAIsBAAAAAAAAAAAewKEBAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:39:58.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OVRAnchorComponents.gen.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRAnchor\\OVRAnchorComponents\\OVRAnchorComponents.gen.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRAnchor\\OVRAnchorComponents\\OVRAnchorComponents.gen.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRAnchor\\OVRAnchorComponents\\OVRAnchorComponents.gen.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.sdk.core@64.0.0-mainline.28\\Scripts\\OVRAnchor\\OVRAnchorComponents\\OVRAnchorComponents.gen.cs",
+              "ViewState": "AQIAACECAAAAAAAAAAAMwCMCAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:36:34.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "manifest.json",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\OrionRenderOptions\\Packages\\manifest.json",
+              "RelativeDocumentMoniker": "..\\OrionRenderOptions\\Packages\\manifest.json",
+              "ToolTip": "C:\\UNITY_PROJECTS\\OrionRenderOptions\\Packages\\manifest.json",
+              "RelativeToolTip": "..\\OrionRenderOptions\\Packages\\manifest.json",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T14:29:48.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LabelFilter.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\LabelFilter.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\LabelFilter.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\LabelFilter.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\LabelFilter.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAEwCIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:36:26.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MRUK.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUK.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUK.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUK.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\MRUK.cs",
+              "ViewState": "AQIAAAoDAAAAAAAAAAAEwBgDAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:33:10.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FindSpawnPositions.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\FindSpawnPositions.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\FindSpawnPositions.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\FindSpawnPositions.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\FindSpawnPositions.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:32:47.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EffectMesh.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\EffectMesh.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\EffectMesh.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\EffectMesh.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\EffectMesh.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:32:44.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SpatialAnchorService.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\Multiplayer\\Runtime\\Services\\SpatialAnchorService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Multiplayer\\Runtime\\Services\\SpatialAnchorService.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Assets\\Scripts\\Multiplayer\\Runtime\\Services\\SpatialAnchorService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Multiplayer\\Runtime\\Services\\SpatialAnchorService.cs",
+              "ViewState": "AQIAAFgBAAAAAAAAAADgv2wBAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:07:49.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\Data.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\Data.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\Data.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\Data.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:32:34.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AnchorPrefabSpawner.cs",
+              "DocumentMoniker": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\AnchorPrefabSpawner.cs",
+              "RelativeDocumentMoniker": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\AnchorPrefabSpawner.cs",
+              "ToolTip": "C:\\UNITY_PROJECTS\\NexusSagaInternal\\Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\AnchorPrefabSpawner.cs",
+              "RelativeToolTip": "Packages\\com.meta.xr.mrutilitykit@66.0.0\\Core\\Scripts\\AnchorPrefabSpawner.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAhwB8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:32:13.98Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

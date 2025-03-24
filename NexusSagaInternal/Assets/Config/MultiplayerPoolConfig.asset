@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be486a66090247298606b04554ffc06e, type: 3}
+  m_Name: MultiplayerPoolConfig
+  m_EditorClassIdentifier: 
+  PoolSize: 20
+  HeadPrefab: {fileID: 5913389957262203154, guid: 8dcee87f639e34366b626ebb3abe167b,
+    type: 3}
+  LeftHandPrefab: {fileID: 4775434835506276489, guid: 90a825d0b39804f2ba1146ed77d0f104,
+    type: 3}
+  RightHandPrefab: {fileID: 8437993087300731569, guid: f13c8ac60d9724d5b9097cd6094b8507,
+    type: 3}
+  UserNameDisplayPrefab: {fileID: 7044437967693348650, guid: f49f0e0575acd42a8b732c27200d37e9,
+    type: 3}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848f4b8e30a50954f9364e31e8ee2274, type: 3}
+  m_Name: InterfaceTestInstallationRoutineFusion
+  m_EditorClassIdentifier: 
+  targetBlockDataId: ef76013c-04dd-449f-ad78-103505cbacd4
+  prefab: {fileID: 6561164065760899085, guid: db04fe7693925484d9ca9a5e0ffeff45, type: 3}
+  groupType: Fusion
+  packageDependencies: []

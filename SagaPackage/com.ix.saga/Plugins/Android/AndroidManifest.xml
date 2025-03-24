@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
+    <!-- Tell the system which permissions are needed -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Volume Control -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Anchor API -->
+    <uses-permission android:name="com.oculus.permission.USE_ANCHOR_API" />
+    <uses-permission android:name="com.oculus.permission.ACCESS_TRACKING_ENV" />
+    <!-- Audio -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!-- Needed for shared microphone server to be able to use AudioRecord -->
+    <uses-permission android:name="com.oculus.permission.RECORD_AUDIO_BACKGROUND" />
+    <!-- Enable consumption of high frequency online calibration. -->
+    <uses-permission android:name="com.oculus.permission.READ_ONLINE_CALIBRATION"/>
+</manifest>

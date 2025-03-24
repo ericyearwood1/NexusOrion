@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3d6732a1f5403ca7cc79e0300b3ee7, type: 3}
+  m_Name: SpatialAnchorConfig
+  m_EditorClassIdentifier: 
+  _isOVRTesting: 1
+  _anchorPrefab: {fileID: 2326147346849745178, guid: e1e233a60373d4f3a94b81b0a48e1df9,
+    type: 3}

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>SimpleThreadMonitor</id>
+    <version>1.0.2.1</version>
+    <title>SimpleThreadMonitor</title>
+    <authors>uhm0311</authors>
+    <owners>uhm0311</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/uhm0311/SimpleThreadMonitor</projectUrl>
+    <description>Simple C# Mutex.</description>
+    <releaseNotes>Add .Net core 2.0, 3.0 support.</releaseNotes>
+    <copyright>Copyright (c) 2020 uhm0311</copyright>
+    <tags>Mutex</tags>
+    <repository type="git" url="https://github.com/uhm0311/SimpleThreadMonitor.git" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETCoreApp2.0" />
+      <group targetFramework=".NETCoreApp3.0" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WebSocketSharp.CustomHeaders.CustomHttpServer</id>
+    <version>1.0.2.3</version>
+    <authors>jax,felixhao28,sta</authors>
+    <owners>jax,felixhao28,sta</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/uhm0311/websocket-sharp/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/uhm0311/websocket-sharp</projectUrl>
+    <iconUrl>https://raw.github.com/uhm0311/websocket-sharp/master/websocket-sharp_icon.png</iconUrl>
+    <description>See https://www.nuget.org/packages/WebSocketSharp for more info.</description>
+    <releaseNotes>Add IsDisconnected property to HttpListenerResponse.</releaseNotes>
+    <tags>websocket WebSocket</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETCoreApp2.0" />
+      <group targetFramework=".NETCoreApp3.0" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>

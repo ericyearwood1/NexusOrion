@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4995474985934964bd223e0b6e2fb66d, type: 3}
+  m_Name: ButtonUseSMDs
+  m_EditorClassIdentifier: 
+  _useToStateMachines:
+    list:
+    - Key: 0
+      Value: {fileID: 11400000, guid: 255ebc3572d9ec243a400e2e5038db53, type: 2}
+    - Key: 1
+      Value: {fileID: 11400000, guid: 73c160dbcf5c402428c49502a220d4b2, type: 2}
+    - Key: 2
+      Value: {fileID: 11400000, guid: b4340af3ef17a8b4ca270a62510e58cf, type: 2}
+    - Key: 3
+      Value: {fileID: 11400000, guid: ecc131d4057149540991d10c7267cfcb, type: 2}
+    - Key: 4
+      Value: {fileID: 11400000, guid: fcae2a2005619bb4b8ff4e83d6a4c0af, type: 2}
+    - Key: 5
+      Value: {fileID: 11400000, guid: e9337055b0ab5984589a6224b5453992, type: 2}
+    - Key: 6
+      Value: {fileID: 11400000, guid: 9370d7904b3405443ab3e1c5a2511dbd, type: 2}
+    - Key: 7
+      Value: {fileID: 11400000, guid: fb69cf74321f8a444b02fcab0d567f4d, type: 2}
+    - Key: 8
+      Value: {fileID: 11400000, guid: 3dafd8c3e513e0144ae9d0f6236e87e4, type: 2}
+    - Key: 9
+      Value: {fileID: 11400000, guid: 3438145a5b695b040b768d609396e352, type: 2}
+    keyCollision: 0

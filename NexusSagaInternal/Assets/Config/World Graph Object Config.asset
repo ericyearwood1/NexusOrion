@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96b317b4adf48d0b3685d331ff5764a, type: 3}
+  m_Name: World Graph Object Config
+  m_EditorClassIdentifier: 
+  UnknownObject: {fileID: 21300000, guid: dc84e0f778c024b1d8f3bd9e46becb29, type: 3}
+  UnknownFurniture: {fileID: 21300000, guid: 645ebf40808094b759648f594d78ae90, type: 3}
+  IsUseObjectIdForFurnitureLabel: 0
+  FlatDisplayList:
+  - table
+  - console
+  - counter
+  - island
+  - cabinet
+  Mappings:
+  - Id: party_hat
+    Icon: {fileID: 21300000, guid: 547106fc754884100b5533f1dbfe433b, type: 3}
+    Label: Hat
+  - Id: donut
+    Icon: {fileID: 21300000, guid: aaa335d724d2c4a4bb5d69f577ec6773, type: 3}
+    Label: Pink_Donut_Plush_Toy
+  - Id: cup
+    Icon: {fileID: 21300000, guid: 5daf23c152cb749b0b81cc5048e8bd82, type: 3}
+    Label: Cup
+  - Id: can
+    Icon: {fileID: 21300000, guid: 8b7dbe124a1e14ee5ae503e2c3701edf, type: 3}
+    Label: Can
+  - Id: bottle
+    Icon: {fileID: 21300000, guid: c6405a62bf3fd46a5bc1eb1084f57230, type: 3}
+    Label: Bottle
+  - Id: dining_table
+    Icon: {fileID: 21300000, guid: 05a349345cf554d0eb4febc0b1190f17, type: 3}
+    Label: Table
+  - Id: kitchen_island
+    Icon: {fileID: 21300000, guid: fe10d9f7d55244fada86a0a4632d7f5f, type: 3}
+    Label: Kitchen Island
+  - Id: kitchen_counter
+    Icon: {fileID: 21300000, guid: fe10d9f7d55244fada86a0a4632d7f5f, type: 3}
+    Label: Kitchen Counter
+  - Id: sofa
+    Icon: {fileID: 21300000, guid: 94df67e31902d45c2b795c8ac57e2d31, type: 3}
+    Label: Sofa
+  - Id: wooden_console
+    Icon: {fileID: 21300000, guid: 821514a664b2245d59c586748108f72d, type: 3}
+    Label: Console
+  - Id: wooden_dresser
+    Icon: {fileID: 21300000, guid: 863cf906f84eb47398a96cd4f79f5630, type: 3}
+    Label: Dresser
+  - Id: coffee_table
+    Icon: {fileID: 21300000, guid: 5f6a6b0abe4094fc58c361be53865141, type: 3}
+    Label: Coffee Table
+  - Id: office_chair
+    Icon: {fileID: 21300000, guid: b3a9db162e53a4deea6e392c1fd3e801, type: 3}
+    Label: Office Chair
+  - Id: shelf
+    Icon: {fileID: 21300000, guid: e4da5ad0444374ab7bf2f7280bf271f7, type: 3}
+    Label: Shelf
+  - Id: chair
+    Icon: {fileID: 21300000, guid: ee90411a1851a4d48b2ca0f75bfe177d, type: 3}
+    Label: Chair
+  - Id: trash_can
+    Icon: {fileID: 21300000, guid: 9f6b365235b46410595092a519979106, type: 3}
+    Label: Trash Can
+  - Id: hamper
+    Icon: {fileID: 21300000, guid: c3c7108b43cff43a493a0ac4c6b395e5, type: 3}
+    Label: Hamper
+  - Id: drawer
+    Icon: {fileID: 21300000, guid: bb691aebf02ea45569dcfe7b4d13ed46, type: 3}
+    Label: Drawer
+  - Id: bed
+    Icon: {fileID: 21300000, guid: 364e17535a3bf418ba553e6907d3a0fd, type: 3}
+    Label: Bed
+  - Id: pillow
+    Icon: {fileID: 21300000, guid: 214bd083e20804e4bacca733ecdad216, type: 3}
+    Label: Pillow
+  - Id: cabinet
+    Icon: {fileID: 21300000, guid: ac58a1ecf899f4d429314cd6a6b090e8, type: 3}
+    Label: Cabinet
+  - Id: sink
+    Icon: {fileID: 21300000, guid: eb0ac1c45e4414c878aba0c7e20eb1de, type: 3}
+    Label: Sink
+  - Id: night_stand
+    Icon: {fileID: 21300000, guid: b1976bcc5d3814576808bd539d29e8e2, type: 3}
+    Label: Night Stand
+  - Id: pineapple
+    Icon: {fileID: 21300000, guid: c80863fe0bef74322a4e606d3615b39b, type: 3}
+    Label: Pineapple_Plush_Toy
+  - Id: toy
+    Icon: {fileID: 21300000, guid: 38b0e4aa32365435ab6848eaa9cf41d5, type: 3}
+    Label: Toy
+  - Id: ball
+    Icon: {fileID: 21300000, guid: 70ee29a6e93704011954fa0acd67e376, type: 3}
+    Label: Ball
+  - Id: refrigerator
+    Icon: {fileID: 21300000, guid: 4ad981b8f788440f8b48e5691a05f874, type: 3}
+    Label: Refrigerator

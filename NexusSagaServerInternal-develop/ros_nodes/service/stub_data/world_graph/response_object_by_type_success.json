@@ -1,0 +1,58 @@
+{
+    "status": "success",
+    "timestamp": "2024-07-11T17:00:10Z",
+    "object": [
+        {
+            "object_id": "113_white_sink",
+            "object_name": "white_sink",
+            "category_tag": "furniture",
+            "room": "kitchen",
+            "bbox_extent": [
+                0.8,
+                0.6,
+                0.4
+            ],
+            "bbox_center": [
+                3.9,
+                -2.0,
+                0.5
+            ],
+            "receptacles": [
+                {
+                    "object_id": "285_kitchen_counter",
+                    "object_name": "kitchen_counter",
+                    "category_tag": "furniture",
+                    "room": "kitchen",
+                    "bbox_extent": [
+                        1.4,
+                        1.1,
+                        0.2
+                    ],
+                    "bbox_center": [
+                        3.8,
+                        -4.1,
+                        0.1
+                    ],
+                    "relation": "on"
+                }
+            ]
+        },
+        {
+            "object_name": "135_white_sink",
+            "category_tag": "furniture",
+            "room": "kitchen",
+            "bbox_extent": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "bbox_center": [
+                6.9,
+                -10.0,
+                0.5
+            ],
+            "receptacles": [
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8c80b549d31064a7491f44dea6979855
+timeCreated: 1429179909
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 50191
+  packageName: SDF Toolkit Free
+  packageVersion: 1.1
+  assetPath: Assets/Plugins/Catlike Coding/SDF Toolkit/Documentation/SDF Texture
+    Generator.pdf
+  uploadId: 149584

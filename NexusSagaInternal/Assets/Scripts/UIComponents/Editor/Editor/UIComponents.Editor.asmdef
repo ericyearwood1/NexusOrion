@@ -1,0 +1,18 @@
+{
+    "name": "UIComponents.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:62d00edf23951403abf7758090851fbb"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

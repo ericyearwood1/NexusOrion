@@ -1,0 +1,35 @@
+{
+  "name": "com.arglasses.components",
+  "displayName": "[ARGlasses] Components",
+  "description": "Primitives for ARDS built on top of ARIM interactions and PKUI",
+  "version": "1.0.0-preview.1",
+  "unity": "2021.3",
+  "author": {
+    "name": "Kevin Arbor",
+    "email": "kevinarbor@meta.com"
+  },
+  "keywords": [
+    "Orion",
+    "HoloLens",
+    "ISDK",
+    "Interaction",
+    "Toolkit",
+    "Driver",
+    "Input",
+    "Router",
+    "Manipulator"
+  ],
+  "unused": {
+    "com.protokit.sdk.ui": "54.0.0"
+  },
+  "dependencies": {
+    "com.arglasses.icons" : "1.6.0",
+    "com.arglasses.fonts" : "1.5.1",
+    "com.arglasses.interaction": "1.0.1",
+    "com.thirdparty.cysharp.unitask": "2.3.1",
+    "com.osig.tools.statemachine": "1.2.2",
+    "com.protokit.font.optimistic": "3.0.0"
+  },
+  "type": "library",
+  "hideInEditor": false
+}

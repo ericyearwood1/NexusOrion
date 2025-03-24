@@ -1,0 +1,17 @@
+{
+  "name": "com.protokit.sdk.ui.graphics",
+  "displayName": "[SDK] ProtoKit UI : Graphics",
+  "version": "57.0.1-xrdonly.5",
+  "unity": "2022.3",
+  "author": {
+    "name": "Alex Marcolina"
+  },
+  "description": "ProtoKit SDK core graphics package, contains common UI base.",
+  "dependencies": {
+    "com.osig.tools.layout": "2.0.5-preview.1",
+    "com.osig.tools.units": "1.0.3",
+    "com.osig.tools.utility": "1.0.19",
+    "com.unity.textmeshpro": "3.0.6",
+    "com.osig.ui.core": "53.0.0-empty.1"
+  }
+}

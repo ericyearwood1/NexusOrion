@@ -1,0 +1,27 @@
+{
+    "name": "protokit.sdk.ui.graphics",
+    "rootNamespace": "",
+    "references": [
+        "osig.tools.layout",
+        "osig.tools.units",
+        "osig.tools.utility",
+        "Unity.TextMeshPro",
+        "osig.tools.layout.editor",
+        "osig.tools.statemachine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.osig.tools.curvedsurfaces",
+            "expression": "0.0.0",
+            "define": "CURVED_SURFACES_PRESENT"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,28 @@
+{
+    "name": "protokit.sdk.ui.graphics.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cc8b241b62a6c8c4285f75d0bacfd62a",
+        "GUID:23a187d4efac04f489afc94f2e0e0adb",
+        "GUID:de8d9f6bbe7887b4badb1dc75cd1191e",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:6546d7765b4165b40850b3667f981c26"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "2.1.0",
+            "define": "TMP_2_1_0_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

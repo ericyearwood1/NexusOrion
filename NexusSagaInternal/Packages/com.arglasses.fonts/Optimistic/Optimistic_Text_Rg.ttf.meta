@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4e34f6a738ef13f45b68657177434f94
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Optimistic Text
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 935aeeb3885b3ff4a9296321f9694b9d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

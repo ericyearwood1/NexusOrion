@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57405bb03f08433469adc85ec31e1ce9, type: 3}
+  m_Name: PrefabLibrary
+  m_EditorClassIdentifier: 
+  LibraryName: ARDS
+  PrefabsRoot: {fileID: 102900000, guid: 215132c847001a74cac743b94c302c00, type: 3}
+  PrefabsPath: Packages/com.arglasses.components/Prefabs/Components/Controllers
+  InstantiateAsPrefab: 1
+  CustomCallback: 1
+  CustomClassCallback: PrefabLibraryUtility
+  Prefabs:
+  - name: 
+    list:
+    - {fileID: 7772137936564406586, guid: 4ff56cc5fb0ad024eafc7dbcad4617c8, type: 3}
+    - {fileID: 4220225664706668977, guid: 58cc072b6bec60245a547e8cd8bd9e22, type: 3}
+    - {fileID: 6979142664693997031, guid: 879a919437273ea49846899ced19809d, type: 3}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b9c93dd4410846eabd1bf78955d40e7
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 50191
+  packageName: SDF Toolkit Free
+  packageVersion: 1.1
+  assetPath: Assets/Plugins/Editor/Catlike Coding/SDF Toolkit/SDFTextureGeneratorWindow.cs
+  uploadId: 149584

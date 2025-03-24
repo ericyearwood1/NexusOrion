@@ -1,0 +1,48 @@
+services:
+  planner:
+    build:
+      context: .
+      dockerfile: base.dockerfile
+      target: planner
+    expose:
+      - "7501"
+  human-activity:
+    build:
+      context: .
+      dockerfile: base.dockerfile
+      target: human-activity
+    expose:
+      - "7502"
+  world-graph:
+    build:
+      context: .
+      dockerfile: base.dockerfile
+      target: world-graph
+    expose:
+      - "7503"
+  skills:
+    build:
+      context: .
+      dockerfile: base.dockerfile
+      target: skills
+    expose:
+      - "7504"
+  siro-server:
+    environment:
+      ROS_NODE_PLANNER_HOST: 'planner'
+      ROS_NODE_HUMAN_ACTIVITY_HOST: 'human-activity'
+      ROS_NODE_WORLD_GRAPH_HOST: 'world-graph'
+      ROS_NODE_SKILLS_HOST: 'skills'
+    build:
+      context: .
+      dockerfile: base.dockerfile
+      target: siro-server
+    ports:
+      - "7500:7500"
+    expose:
+      - "7500"
+    depends_on:
+      - planner
+      - human-activity
+      - world-graph
+      - skills

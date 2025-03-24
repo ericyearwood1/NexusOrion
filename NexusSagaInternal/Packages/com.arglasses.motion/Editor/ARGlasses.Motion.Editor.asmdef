@@ -1,0 +1,18 @@
+{
+    "name": "ARGlasses.Motion.Editor",
+    "rootNamespace": "ARGlasses.Interaction.Motion",
+    "references": [
+        "GUID:cd75ac719846248f8b4b5a91c2559fc4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

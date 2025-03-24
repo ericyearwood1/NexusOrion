@@ -1,0 +1,19 @@
+{
+    "name": "CTRL.Core.Samples",
+    "references": [
+        "CTRL.Core",
+        "CTRL.Utils",
+        "ITK.Depend"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,395 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f697f9af0d0e433ea03e22ce1b80787e, type: 3}
+  m_Name: OVRARKitWeightGenerator
+  m_EditorClassIdentifier: 
+  _customExpressionFormulas:
+  - Name: EyeBlinkLeft
+    Components:
+    - Expression: 12
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeLookDownLeft
+    Components:
+    - Expression: 14
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeLookInLeft
+    Components:
+    - Expression: 18
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeLookOutLeft
+    Components:
+    - Expression: 16
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeLookUpLeft
+    Components:
+    - Expression: 20
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeSquintLeft
+    Components:
+    - Expression: 28
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeWideLeft
+    Components:
+    - Expression: 59
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeBlinkRight
+    Components:
+    - Expression: 13
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeLookDownRight
+    Components:
+    - Expression: 15
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeLookInRight
+    Components:
+    - Expression: 17
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeLookOutRight
+    Components:
+    - Expression: 19
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeLookUpRight
+    Components:
+    - Expression: 21
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeSquintRight
+    Components:
+    - Expression: 29
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: EyeWideRight
+    Components:
+    - Expression: 60
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: JawForward
+    Components:
+    - Expression: 27
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: JawLeft
+    Components:
+    - Expression: 25
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: JawRight
+    Components:
+    - Expression: 26
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: JawOpen
+    Components:
+    - Expression: 24
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthClose
+    Components:
+    - Expression: 50
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthFunnel
+    Components:
+    - Expression: 34
+      Contribution: 1
+    - Expression: 35
+      Contribution: 1
+    - Expression: 36
+      Contribution: 1
+    - Expression: 37
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthPucker
+    Components:
+    - Expression: 40
+      Contribution: 1
+    - Expression: 41
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthLeft
+    Components:
+    - Expression: 53
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthRight
+    Components:
+    - Expression: 54
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthSmileLeft
+    Components:
+    - Expression: 32
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthSmileRight
+    Components:
+    - Expression: 33
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthFrownLeft
+    Components:
+    - Expression: 30
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthFrownRight
+    Components:
+    - Expression: 31
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthDimpleLeft
+    Components:
+    - Expression: 10
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthDimpleRight
+    Components:
+    - Expression: 11
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthStretchLeft
+    Components:
+    - Expression: 42
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthStretchRight
+    Components:
+    - Expression: 43
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthRollLower
+    Components:
+    - Expression: 44
+      Contribution: 1
+    - Expression: 46
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthRollUpper
+    Components:
+    - Expression: 45
+      Contribution: 1
+    - Expression: 47
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthShrugLower
+    Components:
+    - Expression: 8
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthShrugUpper
+    Components:
+    - Expression: 9
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthPressLeft
+    Components:
+    - Expression: 38
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthPressRight
+    Components:
+    - Expression: 39
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthLowerDownLeft
+    Components:
+    - Expression: 51
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthLowerDownRight
+    Components:
+    - Expression: 52
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthUpperUpLeft
+    Components:
+    - Expression: 61
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: MouthUpperUpRight
+    Components:
+    - Expression: 62
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: BrowDownLeft
+    Components:
+    - Expression: 0
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: BrowDownRight
+    Components:
+    - Expression: 1
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: BrowInnerUp
+    Components:
+    - Expression: 22
+      Contribution: 1
+    - Expression: 23
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: BrowOuterUpLeft
+    Components:
+    - Expression: 57
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: BrowOuterUpRight
+    Components:
+    - Expression: 58
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: CheekPuff
+    Components:
+    - Expression: 2
+      Contribution: 1
+    - Expression: 3
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: CheekSquintLeft
+    Components:
+    - Expression: 4
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: CheekSquintRight
+    Components:
+    - Expression: 5
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: NoseSneerLeft
+    Components:
+    - Expression: 55
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: NoseSneerRight
+    Components:
+    - Expression: 56
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1
+  - Name: TongueOut
+    Components:
+    - Expression: 68
+      Contribution: 1
+    MinValue: 0
+    MaxValue: 1
+    Multiplier: 1

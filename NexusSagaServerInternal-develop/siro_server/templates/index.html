@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech App</title>
+</head>
+<body>
+    <h1>Speech Synthesis and Recognition</h1>
+
+    <!-- Text-to-Speech Section -->
+    <div>
+        <h2>Text to Speech</h2>
+        <textarea id="textInput" placeholder="Enter text here..." rows="4" cols="50" value="Hello, world!"></textarea><br />
+        <input type="text" id="languageTTS" placeholder="Language (e.g., 'eng')" value="eng"><br />
+        <input type="checkbox" id="streamTTS" checked>Stream audio<br />
+        <button id="ttsButton">Convert to Speech</button>
+        <a id="streamLink" href="" download="audio.mp3" style="display: none;">Download audio</a>
+        <p id="ttsLog"></p>
+        <p id="ttsStatus"></p>
+
+    </div>
+
+    <!-- Audio-to-Text Section -->
+    <div>
+        <h2>Speech to Text</h2>
+        <input type="file" id="audioInput"><br />
+        <input type="text" id="languageASR" placeholder="Language (e.g., 'eng')" value="eng"><br />
+        <button id="asrButton">Convert to Text</button>
+        <p id="asrLog"></p>
+        <p id="asrStatus"></p>
+        <p id="transcriptionResult"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.5.0/socket.io.js" integrity="sha512-ttqbKrGZiTtSLguBZ2xNvZrhUv02IO/TRq5U6TG5TK90wbaXWup5kIJ1A1tLzjOk5Mea/G4seVNrU+lwTLfAzA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

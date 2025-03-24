@@ -1,0 +1,21 @@
+{
+    "name": "CTRL.Core.Editor",
+    "references": [
+        "CTRL.Core",
+        "CTRL.Utils",
+        "ITK.Depend"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,22 @@
+{
+    "name": "ARGlasses.Interaction.Editor",
+    "rootNamespace": "ARGlasses.Interaction",
+    "references": [
+        "ARGlasses.Interaction",
+        "UnityEditor.UI",
+        "UnityEngine.UI",
+        "protokit.core.editor",
+        "Oculus.VR.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

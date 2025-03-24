@@ -1,0 +1,6 @@
+# For Speech processing
+sentencepiece
+git+https://github.com/huggingface/transformers.git
+protobuf
+soundfile
+

@@ -1,0 +1,152 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "mainserver",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "-c",
+          "cd ${workspaceFolder}/siro_server/ && $CONDA_PREFIX/bin/python main.py"
+        ],
+        "problemMatcher": [],
+        "presentation": {
+          "echo": true,
+          "reveal": "never",
+          "focus": true,
+          "group": "nexus",
+          "panel": "dedicated",
+          "showReuseMessage": false,
+          "clear": true,
+          
+        },
+        "hide" : true
+      },
+      {
+        "label": "planner",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "-c",
+          "sleep 3 && cd ${workspaceFolder}/ros_nodes/service/ && $CONDA_PREFIX/bin/python planner_service_actual.py"
+        ],
+        "problemMatcher": [],
+        "presentation": {
+          "echo": true,
+          "reveal": "never",
+          "focus": true,
+          "group": "nexus",
+          "panel": "dedicated",
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "hide" : true
+      },
+
+      {
+        "label": "skills",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "-c",
+          "sleep 3 && cd ${workspaceFolder}/ros_nodes/service/ && $CONDA_PREFIX/bin/python skills_service_actual.py"
+        ],
+        "problemMatcher": [],
+        "presentation": {
+          "echo": true,
+          "reveal": "never",
+          "focus": true,
+          "group": "nexus",
+          "panel": "dedicated",
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "hide" : true
+      },
+
+      {
+        "label": "worldgraph",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "-c",
+          "sleep 3 && cd ${workspaceFolder}/ros_nodes/service/ && $CONDA_PREFIX/bin/python world_graph_service_actual.py"
+        ],
+        "problemMatcher": [],
+        "presentation": {
+          "echo": true,
+          "reveal": "never",
+          "focus": true,
+          "group": "nexus",
+          "panel": "dedicated",
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "hide" : true
+      },
+
+      {
+        "label": "har",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "-c",
+          "sleep 3 &&cd ${workspaceFolder}/ros_nodes/service/ && $CONDA_PREFIX/bin/python human_activity_service_actual.py"
+        ],
+        "problemMatcher": [],
+        "presentation": {
+          "echo": true,
+          "reveal": "never",
+          "focus": true,
+          "group": "nexus",
+          "panel": "dedicated",
+          "showReuseMessage": false, 
+          "clear": true
+        },
+        "hide" : true
+      },
+
+      {
+        "label": "speech",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "-c",
+          "sleep 3 && set -a && source ${workspaceFolder}/.vscode/.env && set +a && source $CONDA_PATH/etc/profile.d/conda.sh && conda activate $CONDA_PATH/envs/$SPEECH_ENV && cd ${workspaceFolder}/ros_nodes/service/ && python speech_service.py"
+        ],
+        "problemMatcher": [],
+        "presentation": {
+          "echo": true,
+          "reveal": "never",
+          "focus": true,
+          "group": "nexus",
+          "panel": "dedicated",
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "hide" : false
+      },
+      
+      {
+        "label": "Run Nexus",
+        "dependsOn": [
+          "mainserver",
+          "planner",
+          "skills",
+          "worldgraph",
+          "har",
+          "speech",
+        ],
+        "problemMatcher": [],
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": true,
+          "group": "nexus",
+          "panel": "shared",
+          "showReuseMessage": false,
+          "clear": true
+        }
+      }
+    ]
+  }

@@ -1,0 +1,40 @@
+{
+  "name": "com.arglasses.interaction",
+  "displayName": "[ARGlasses] Interaction",
+  "description": "Core interfaces and abstractions for ARIM & ARDS",
+  "version": "1.0.1",
+  "unity": "2020.3",
+  "author": {
+    "name": "Nathan Aschenbach",
+    "email": "naschenbach@fb.com",
+    "url": "https://www.internalfb.com/intern/profile/?id=8643088"
+  },
+  "keywords": [
+    "Orion",
+    "HoloLens",
+    "ISDK",
+    "Interaction",
+    "Toolkit",
+    "Driver",
+    "Input",
+    "Router",
+    "Manipulator"
+  ],
+  "dependencies": {
+    "com.meta.xr.sdk.core": "61.0.0-mainline.31",
+    "com.protokit.sdk.ui.graphics": "54.0.0",
+    "com.arglasses.motion": "1.0.1",
+    "com.gdpx.displaysimulator": "0.1.4",
+    "com.gdpx.perfhud": "0.1.5",
+    "com.ctrl.core": "0.6.1",
+    "com.ctrl.schemes": "0.5.4",
+    "com.unity.ide.rider": "3.0.27",
+    "com.unity.inputsystem": "1.5.0",
+    "com.protokit.core": "2.6.1",
+    "com.itk.foundation.depend": "19.0.1-preview.3",
+    "com.itk.foundation.inspector": "19.0.1-preview.3",
+    "com.thirdparty.mathnet.numerics": "4.8.1"
+  },
+  "type": "library",
+  "hideInEditor": false
+}

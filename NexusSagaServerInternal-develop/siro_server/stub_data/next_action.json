@@ -1,0 +1,11 @@
+[
+	{"timestamp": "1723652930.824241", "action": "FindAgentActionTool[]"}, 
+	{"timestamp": "1723652931.824241", "action": "FindObjectTool[16_cup_on_table_or_counter]"}, 
+	{"timestamp": "1723652932.824241", "action": "Navigate[16_cup_on_table_pur_counte]"}, 
+	{"timestamp": "1723652940.824241", "action": "Pick[cup]"}, 
+	{"timestamp": "1723652951.824241", "action": "FindObjectTool[cup]"}, 
+	{"timestamp": "1723652952.824241", "action": "Pick[59_cup]"}, 
+	{"timestamp": "1723653001.824241", "action": "FindReceptacleTool[83_person_in_chair],replanning"}, 
+	{"timestamp": "1723653002.824241", "action": "Navigate[83_person_in_chair]"}, 
+	{"timestamp": "1723653011.824241", "action": "Place[59_cup, on, 83_person_in_chair, none, none]"}
+]

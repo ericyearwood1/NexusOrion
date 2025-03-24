@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d5758cfb47823489080981979f33be, type: 3}
+  m_Name: InterfaceTestBlockData
+  m_EditorClassIdentifier: 
+  id: ef76013c-04dd-449f-ad78-103505cbacd4
+  version: 1
+  blockName: Test Interface
+  description: Interface Test
+  tags:
+    array:
+    - name: Experimental
+    - name: Internal
+  thumbnail: {fileID: 0}
+  order: 0
+  prefab: {fileID: 0}
+  externalBlockDependencies: []
+  dependencies:
+  - e47682b9-c270-40b1-b16d-90b627a5ce1b
+  packageDependencies: []
+  isSingleton: 0
+  usageInstructions: 
+  groupName: Multiplayer
+  installationRoutineSelection:
+    selection: Prompt User

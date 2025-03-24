@@ -1,0 +1,10 @@
+{
+  "har": 0,
+  "is_notifications_active": true,
+  "is_show_place_object_highlight": false,
+  "is_show_target_object_highlight": true,
+  "is_show_semantic_place": false,
+  "is_show_world_object_highlights": true,
+  "is_enable_world_graph_2d_surfaces": false,
+  "saga_ip": ""
+}

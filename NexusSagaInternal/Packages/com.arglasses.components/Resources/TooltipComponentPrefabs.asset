@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86cb05e11cf4e21a18c966cb19d27a5, type: 3}
+  m_Name: TooltipComponentPrefabs
+  m_EditorClassIdentifier: 
+  _componentStyleToPrefabs:
+    list:
+    - Key:
+        Skin: 0
+        HasIcon: 1
+        HasTitle: 1
+        FromDirection: 0
+      Value: {fileID: 1504668906784389542, guid: 664cc979cbd9691449508193eee90657, type: 3}
+    - Key:
+        Skin: 0
+        HasIcon: 0
+        HasTitle: 1
+        FromDirection: 0
+      Value: {fileID: 7612427392921097662, guid: d12916ec63965c446aa56e821c056876, type: 3}
+    - Key:
+        Skin: 0
+        HasIcon: 1
+        HasTitle: 0
+        FromDirection: 0
+      Value: {fileID: 3850543141593959765, guid: 45b4112de95a3af4c8ec9419af8fa93a, type: 3}
+    - Key:
+        Skin: 0
+        HasIcon: 0
+        HasTitle: 0
+        FromDirection: 0
+      Value: {fileID: 2246962741920751311, guid: b56361ed968117a4d81a7a3ca1564aa9, type: 3}
+    keyCollision: 0

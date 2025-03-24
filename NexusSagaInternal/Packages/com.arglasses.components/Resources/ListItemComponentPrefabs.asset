@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119eb8d0755b4ba19a9047f5b1eae207, type: 3}
+  m_Name: ListItemComponentPrefabs
+  m_EditorClassIdentifier: 
+  _componentStyleToPrefabs:
+    list:
+    - Key:
+        Skin: 0
+        ListItemType: 0
+      Value: {fileID: 6056739290720223496, guid: 2bbd62f8a8aee1048b26c93e520ddb66, type: 3}
+    - Key:
+        Skin: 0
+        ListItemType: 1
+      Value: {fileID: 2423082995315866264, guid: 4e77e784ad6fb894dac3bc806e10805d, type: 3}
+    - Key:
+        Skin: 0
+        ListItemType: 2
+      Value: {fileID: 6670162269081339448, guid: 8b5ff2aacc33f474693e1d9b2c99a7fc, type: 3}
+    - Key:
+        Skin: 0
+        ListItemType: 3
+      Value: {fileID: 82727091625747869, guid: eb1cd61deed264e4fb9b0ae4b50bda11, type: 3}
+    - Key:
+        Skin: 0
+        ListItemType: 4
+      Value: {fileID: 3173212470832796519, guid: dcd4e31989014a246a3974490d6acd53, type: 3}
+    - Key:
+        Skin: 0
+        ListItemType: 5
+      Value: {fileID: 1615210168040935040, guid: 6300e3a86e176af4fbe365d0dbd94ee8, type: 3}
+    - Key:
+        Skin: 0
+        ListItemType: 6
+      Value: {fileID: 360978771244082568, guid: 1a833f582bdc0c24ab1da44f4b336927, type: 3}
+    - Key:
+        Skin: 0
+        ListItemType: 7
+      Value: {fileID: 5084141972558295483, guid: ad443040b6980354ebe3005ee5a3f587, type: 3}
+    - Key:
+        Skin: 0
+        ListItemType: 8
+      Value: {fileID: 3121296207088427400, guid: 83578bdad6cc8a0448debcfb5b700b16, type: 3}
+    keyCollision: 0

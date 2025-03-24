@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2433847890073169153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2bb57f79c23bd4085c04ea3ed0f702, type: 3}
+  m_Name: FloatVariableComponent
+  m_EditorClassIdentifier: 
+  _perStateData:
+  - 0.5
+  - 1
+  - 0.5
+  _layerRef:
+    Id: 0
+  _variableName: Translation
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf8e3df5eb53314cab7f06a4e2be423, type: 3}
+  m_Name: Tooltip States
+  m_EditorClassIdentifier: 
+  _states:
+  - Name: Hidden
+    Id: 1
+  - Name: Shown
+    Id: 2
+  - Name: Init
+    Id: 3
+  _components:
+  - {fileID: 8910579229810212554}
+  - {fileID: -2433847890073169153}
+  - {fileID: 2719859289497469395}
+  _layers:
+  - Name: Main
+    Id: 0
+    DefaultTransition:
+      _mode: 0
+      _duration: 1
+      _curve:
+        _p0: {x: 0, y: 0}
+        _p1: {x: 0.25, y: 0.01}
+        _p2: {x: 0.01, y: 0.99}
+        _p3: {x: 1, y: 1}
+        _animationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0.04
+            tangentMode: 0
+            weightedMode: 3
+            inWeight: 0
+            outWeight: 0.2501999
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0.010101001
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 3
+            inWeight: 0.9900505
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        _preset: 24
+    TransitionOverrides:
+    - FromState:
+        Ids: 01000000
+      ToState:
+        Ids: 02000000
+      Settings:
+        _mode: 1
+        _duration: 0.5
+        _curve:
+          _p0: {x: 0, y: 0}
+          _p1: {x: 0.25, y: 0.01}
+          _p2: {x: 0.01, y: 0.99}
+          _p3: {x: 0, y: 0}
+          _animationCurve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0.04
+              tangentMode: 0
+              weightedMode: 3
+              inWeight: 0
+              outWeight: 0.2501999
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0.010101001
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 3
+              inWeight: 0.9900505
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          _preset: 24
+    - FromState:
+        Ids: 02000000
+      ToState:
+        Ids: 01000000
+      Settings:
+        _mode: 1
+        _duration: 1
+        _curve:
+          _p0: {x: 0, y: 0}
+          _p1: {x: 0.3, y: 0.12}
+          _p2: {x: 0.47, y: 1}
+          _p3: {x: 0, y: 0}
+          _animationCurve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0.39999998
+              tangentMode: 0
+              weightedMode: 3
+              inWeight: 0
+              outWeight: 0.3231099
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 3
+              inWeight: 0.53
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          _preset: 23
+  _nextLayerId: 1
+  _nextStateId: 4
+  _showStateData: 1
+--- !u!114 &2719859289497469395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba73b1a27a27dd4c8c22019e1df04ec, type: 3}
+  m_Name: ScaleVariableComponent
+  m_EditorClassIdentifier: 
+  _perStateData:
+  - 0.5
+  - 1
+  - 0.5
+  _layerRef:
+    Id: 0
+  _variableName: Scale
+  _baseScale: {x: 1, y: 1, z: 1}
+--- !u!114 &8910579229810212554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2bb57f79c23bd4085c04ea3ed0f702, type: 3}
+  m_Name: FloatVariableComponent
+  m_EditorClassIdentifier: 
+  _perStateData:
+  - 0
+  - 1
+  - 0
+  _layerRef:
+    Id: 0
+  _variableName: CanvasAlpha

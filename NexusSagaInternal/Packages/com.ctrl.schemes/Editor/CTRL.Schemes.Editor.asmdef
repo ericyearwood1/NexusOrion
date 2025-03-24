@@ -1,0 +1,20 @@
+{
+    "name": "CTRL.Schemes.Editor",
+    "references": [
+        "CTRL.Core",
+        "CTRL.Core.Editor",
+        "CTRL.Schemes",
+        "ITK.Depend"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

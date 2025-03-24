@@ -1,0 +1,30 @@
+{
+  "name": "com.ctrl.schemes",
+  "displayName": "[CTRL] Schemes",
+  "description": "Integrated control schemes from EMG",
+  "version": "0.5.6",
+  "unity": "2019.4",
+  "documentationUrl": "https://unity-docs.preview.fb-ctrl.com/",
+  "changelogUrl": "https://fburl.com/ctrl-unity-changelog",
+  "dependencies": {
+    "com.ctrl.core": "0.6.3"
+  },
+  "samples": [
+    {
+      "displayName": "Pinch Visualizer",
+      "path": "Samples/PinchVisualizer"
+    },
+    {
+      "displayName": "Pinch With IMU",
+      "path": "Samples/PinchWithIMU"
+    },
+    {
+      "displayName": "UIEvents",
+      "path": "Samples/UIEvents"
+    },
+    {
+      "displayName": "EMGEvents",
+      "path": "Samples/EMGEvents"
+    }
+  ]
+}

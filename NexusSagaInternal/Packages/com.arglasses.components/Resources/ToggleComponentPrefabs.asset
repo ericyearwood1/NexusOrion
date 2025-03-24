@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4dd76f0a8bd42b7bd956808912b5548, type: 3}
+  m_Name: ToggleComponentPrefabs
+  m_EditorClassIdentifier: 
+  _componentStyleToPrefabs:
+    list:
+    - Key:
+        Skin: 0
+        ToggleType: 0
+      Value: {fileID: 8612489659529519738, guid: 2eb866e85e147874f8f80cefd056a199, type: 3}
+    - Key:
+        Skin: 0
+        ToggleType: 1
+      Value: {fileID: 5137506425458627538, guid: 3d3d1c3b12af2f644af7cfe97dc9b0b6, type: 3}
+    keyCollision: 0

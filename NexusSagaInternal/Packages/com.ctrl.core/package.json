@@ -1,0 +1,24 @@
+{
+  "name": "com.ctrl.core",
+  "displayName": "[CTRL] Core",
+  "description": "Base package for communicating with CTRL-R",
+  "version": "0.6.3",
+  "unity": "2019.4",
+  "documentationUrl": "https://unity-docs.preview.fb-ctrl.com/",
+  "changelogUrl": "https://fburl.com/ctrl-unity-changelog",
+  "dependencies": {
+    "com.ctrl.utils": "0.2.2",
+    "com.itk.foundation.depend": "18.2.1",
+    "com.thirdparty.newtonsoft.json": "2.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "EMG Logger",
+      "path": "Samples/EMGLogger"
+    },
+    {
+      "displayName": "IMU Visualizer",
+      "path": "Samples/IMUVisualizer"
+    }
+  ]
+}

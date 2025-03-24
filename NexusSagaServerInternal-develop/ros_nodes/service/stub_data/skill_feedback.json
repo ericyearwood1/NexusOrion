@@ -1,0 +1,11 @@
+[
+	{"timestamp": "1723652930.824241", "action": "FindAgentActionTool[]", "skill_feedback": "The agent is walking"}, 
+	{"timestamp": "1723652931.824241", "action": "FindObjectTool[16_cup_on_table_or_counter]", "skill_feedback": "16_cup_on_table_pur_counter is 1/37 meters away from the agent in lab."}, 
+	{"timestamp": "1723652932.824241", "action": "Navigate[16_cup_on_table_pur_counte]", "skill_feedback": "Successfully reached the target pose by default"}, 
+	{"timestamp": "1723652940.824241", "action": "Pick[cup]", "skill_feedback": "Node with name cup not present in the graph. Use the appropriate tool to get a valid name."}, 
+	{"timestamp": "1723652950.824241", "action": "FindObjectTool[cup]", "skill_feedback": "- 16 cup on table or counter is 1.07 meters away from the agent in lab. - 59 cup is in/on 81 blue table or cabinet and 1.22 meters away from the agent in lab. - 53 white cup is 2.90 meters away from the agent in"},  
+	{"timestamp": "1723652952.824241", "action": "Pick[59_cup]", "skill_feedback": "Successfully picked the target object"}, 
+	{"timestamp": "1723653001.824241", "action": "FindReceptacleTool[83_person_in_chair]", "skill_feedback": "- 83_person_in_char in lab"}, 
+	{"timestamp": "1723653002.824241", "action": "Navigate[83_person_in_chair]", "skill_feedback": " Successfully reached the target pose by default"}, 
+	{"timestamp": "1723653011.824241", "action": " Place[59_cup, on, 83_person_in_chair, none, none]", "skill_feedback": "Final Thought: Exit!"}
+]

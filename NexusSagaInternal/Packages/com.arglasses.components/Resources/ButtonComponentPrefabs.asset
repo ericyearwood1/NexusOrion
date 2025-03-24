@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd25cc63f96249daa1842575b798429b, type: 3}
+  m_Name: ButtonComponentPrefabs
+  m_EditorClassIdentifier: 
+  _componentStyleToPrefabs:
+    list:
+    - Key:
+        Skin: 0
+        ButtonType: 2
+        Icon: 0
+        HideLabel: 1
+        Stateful: 0
+      Value: {fileID: 3068535029143280353, guid: 5711c2eb2b6f096439edc0665d648c76, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 2
+        Icon: 0
+        HideLabel: 0
+        Stateful: 0
+      Value: {fileID: 2784767462772293280, guid: 375d3d804e58f6e41b3ae7dc87779795, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 1
+        Icon: 0
+        HideLabel: 1
+        Stateful: 0
+      Value: {fileID: 1275667492960071328, guid: 411580f50c5764242b1eae59b6547561, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 1
+        Icon: 0
+        HideLabel: 0
+        Stateful: 0
+      Value: {fileID: 4726466952708036616, guid: a1201764de42e9f44aa16649debe0d1a, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 0
+        Icon: 1
+        HideLabel: 1
+        Stateful: 0
+      Value: {fileID: 5454004620323539488, guid: 0bf0dfacc15a96e4fbe84e0820bd99e5, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 0
+        Icon: 0
+        HideLabel: 0
+        Stateful: 0
+      Value: {fileID: 5454004620323539488, guid: 3496c3498e3841945a4fbdfe90890db5, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 0
+        Icon: 1
+        HideLabel: 0
+        Stateful: 1
+      Value: {fileID: 5852273263963080758, guid: 152f4da15333fb14398133d4ba0f7501, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 0
+        Icon: 0
+        HideLabel: 0
+        Stateful: 1
+      Value: {fileID: 7210042583316082285, guid: 5105ea625d4d6404582428ac3d04c29d, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 1
+        Icon: 0
+        HideLabel: 1
+        Stateful: 1
+      Value: {fileID: 6155966208585180905, guid: f6bbf2a5e043d544fa1e43220faa2824, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 1
+        Icon: 1
+        HideLabel: 0
+        Stateful: 1
+      Value: {fileID: 35904559902689207, guid: b59bf0fd4cdf31346bf39681f6e11515, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 2
+        Icon: 1
+        HideLabel: 1
+        Stateful: 1
+      Value: {fileID: 2783029543138266543, guid: 7268192abf82d524b95ce796a4f69e1c, type: 3}
+    - Key:
+        Skin: 0
+        ButtonType: 2
+        Icon: 1
+        HideLabel: 0
+        Stateful: 1
+      Value: {fileID: 7491176490898731723, guid: f4428449ff3a45d4281fd1a587a01285, type: 3}
+    keyCollision: 0

@@ -1,0 +1,32 @@
+{
+  "name": "com.ix.saga",
+  "displayName": "[IX] Saga",
+  "version": "1.0.4",
+  "unity": "2022.3",
+  "description": "This library provides acceess to Saga and Pixie for the HAII IX Project.",
+  "author": {
+    "name": "Bruno De Araujo",
+    "email": "bdearaujo@meta.com"
+  },
+  "documentationUrl": "https://www.internalfb.com/intern/wiki/Input_Explorations/Projects/HAII/HAII_Prototypes/Saga_Application:_Quest3_Front-end_for_HAII/",
+  "samples": [
+    {
+      "displayName": "SagaViewer",
+      "description": "Show how to use Saga into C#/Unity.",
+      "path": "Samples/SagaViewer/SagaViewer.unity"
+    }
+  ],
+  "dependencies": {
+    "com.meta.xr.sdk.core": "64.0.0-mainline.28",
+        "com.meta.xr.sdk.interaction.ovr": "65.0.0-mainline.22",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.xr.oculus": "4.2.0"
+  },
+  "keywords": [
+    "ix",
+    "saga",
+    "pixie",
+    "core",
+    "subsystem"
+  ]
+}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa041ae3fd924313955063f8e54f01a5, type: 3}
+  m_Name: ComponentControllerCollection
+  m_EditorClassIdentifier: 
+  _aRGButtonControllerPrefab: {fileID: 7505349364535933402, guid: 4ff56cc5fb0ad024eafc7dbcad4617c8, type: 3}
+  _aRGAlertDialogueontrollerPrefab: {fileID: 6028353485507518444, guid: 73d63397587f6394e98986611a52036e, type: 3}
+  _argAvatar: {fileID: 247664465083664124, guid: 8e01579cb5816f64db716ba690dc4509, type: 3}
+  _argExpButton: {fileID: 9071703749770360525, guid: bfcb40375884944499931b3b294dd615, type: 3}
+  _argListItem: {fileID: 6169273616558682779, guid: 683c25c0e7e49854f9c9e3739f224065, type: 3}
+  _argTooltip: {fileID: 6651192866834012528, guid: b553e4c24cf27ee4284c7d52475d976b, type: 3}

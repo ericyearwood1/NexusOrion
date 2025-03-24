@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b96778b7ab5447c85bff5ab5c66d2fa, type: 3}
+  m_Name: TileButtonComponentPrefabs
+  m_EditorClassIdentifier: 
+  _componentStyleToPrefabs:
+    list:
+    - Key:
+        HasDescription: 1
+        HasIcon: 1
+      Value: {fileID: 2928523198485057540, guid: 2fa685113eddf80498c9d8aca59274ee, type: 3}
+    - Key:
+        HasDescription: 0
+        HasIcon: 0
+      Value: {fileID: 4651457086124384595, guid: 0054484b93b1afb4cabddf7ad7951952, type: 3}
+    - Key:
+        HasDescription: 1
+        HasIcon: 0
+      Value: {fileID: 8754946047613502307, guid: 7c3b1ba82095c6b4192e13cd5fb29b44, type: 3}
+    - Key:
+        HasDescription: 0
+        HasIcon: 1
+      Value: {fileID: 4514806192370048230, guid: 01351db230443144d8ce3ce437907431, type: 3}
+    keyCollision: 0

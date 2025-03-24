@@ -1,0 +1,28 @@
+{
+    "name": "ARGlasses.Components",
+    "rootNamespace": "ARGlasses.Components",
+    "references": [
+        "ARGlasses.Interaction",
+        "protokit.sdk.ui.graphics",
+        "Unity.TextMeshPro",
+        "osig.tools.statemachine",
+        "osig.tools.layout",
+        "osig.tools.units",
+        "ITK.Inspector",
+        "DOTween.Modules",
+        "UniTask.DOTween",
+        "UniTask",
+        "Oculus.Interaction",
+        "protokit.sdk.ui",
+        "ARGlasses.Motion"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
